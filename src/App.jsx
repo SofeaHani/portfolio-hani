@@ -87,7 +87,7 @@ function App() {
           <div className="project-card">
             <img src="project1.jpeg" alt="Project X" />
             <h4>[Final Year Project] <br /> Traditional Malay Women Fashion Product Recommendation System Using CNN Deep Learning</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, ullam?</p>
+            <p>Description Project 1</p>
             <div className="buttons">
               <a href="#" className="project-btn">Live Demo</a>
               <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn">Github Repo</a>
@@ -96,8 +96,8 @@ function App() {
 
           <div className="project-card">
             <img src="project2.jpeg" alt="Project Y" />
-            <h3>Project Y</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, corrupti.</p>
+            <h3>One Time Pad Cipher System</h3>
+            <p>Description Project 2</p>
             <div className="buttons">
               <a href="#" className="project-btn">Live Demo</a>
               <a href="https://github.com/SofeaHani/One-Time-Pad-Cipher-System" className="project-btn">Github Repo</a>
@@ -106,8 +106,8 @@ function App() {
 
           <div className="project-card">
             <img src="project3.jpeg" alt="Project Z" />
-            <h3>Project Z</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, cum.</p>
+            <h3>Software Engineer Salary Prediction System</h3>
+            <p>Description Project 3</p>
             <div className="buttons">
               <a href="#" className="project-btn">Live Demo</a>
               <a href="#" className="project-btn">Github Repo</a>
