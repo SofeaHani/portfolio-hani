@@ -116,6 +116,43 @@ function App() {
         </div>
       </section>
 
+      {/* Certificate Section */}
+      <section className="certs" id="certs">
+        <h2 className="section-title">Certificate</h2>
+        <div className="cert-container">
+          {/* Project Cards */}
+          <div className="cert-card">
+            <img src="project1.jpeg" alt="Project X" />
+            <h4>[Final Year Project] <br /> Traditional Malay Women Fashion Product Recommendation System Using CNN Deep Learning</h4>
+            <p>Description Project 1</p>
+            <div className="buttons">
+              <a href="#" className="project-btn">Live Demo</a>
+              <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn">Github Repo</a>
+            </div>
+          </div>
+
+          <div className="cert-card">
+            <img src="project2.jpeg" alt="Project Y" />
+            <h3>One Time Pad Cipher System</h3>
+            <p>Description Project 2</p>
+            <div className="buttons">
+              <a href="#" className="project-btn">Live Demo</a>
+              <a href="https://github.com/SofeaHani/One-Time-Pad-Cipher-System" className="project-btn">Github Repo</a>
+            </div>
+          </div>
+
+          <div className="cert-card">
+            <img src="project3.jpeg" alt="Project Z" />
+            <h3>Software Engineer Salary Prediction System</h3>
+            <p>Description Project 3</p>
+            <div className="buttons">
+              <a href="#" className="project-btn">Live Demo</a>
+              <a href="#" className="project-btn">Github Repo</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section className="contact" id="contact">
         <h2 className="section-title" style={{ marginBottom: '20px', marginTop: '30px' }}>Contact Me</h2>
