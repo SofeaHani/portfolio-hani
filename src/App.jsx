@@ -45,7 +45,7 @@ function App() {
         <div className="about-container">
           <img src="hani.jpg" alt="Sofea Hani" width="100%" loading="lazy" />
           <div className="text">
-            <h1 style={{ marginTop: '30px' }}>Hello and Hi, My Name is</h1>
+            <h1 style={{ marginTop: '30px' }}>Hello, My Name is</h1>
             <h1 style={{ marginTop: '15px', color: 'rgb(216, 12, 87)' }}>Sofea Hani Binti Sharifudin</h1>
             <h2 style={{ marginTop: '15px' }}>I'm a front-end developer with a <br /> passion for creating beautiful and functional websites</h2>
             <div className="buttons" style={{ marginTop: '30px' }}>
