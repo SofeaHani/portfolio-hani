@@ -43,7 +43,7 @@ function App() {
       {/* About Section */}
       <section className="about" id="about">
         <div className="about-container">
-          <img src="sofea.jpeg" alt="Sofea Hani" width="100%" loading="lazy" />
+          <img src="HANI PORTFOLIO.jpeg" alt="Sofea Hani" width="100%" loading="lazy" />
           <div className="text">
             <h1 style={{ marginTop: '30px' }}>Hello, My Name is</h1>
             <h1 style={{ marginTop: '15px', color: 'rgb(216, 12, 87)' }}>Sofea Hani Binti Sharifudin</h1>
