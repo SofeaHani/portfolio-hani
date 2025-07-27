@@ -178,7 +178,7 @@ header {
 .skills {
   text-align: center;
   padding: 6rem 10%;
-  background: rgb(255, 233, 233);
+  background: rgb(248, 255, 172);
   color: rgb(216, 12, 87);
 }
 
@@ -277,7 +277,8 @@ header {
 .projects {
   text-align: center;
   padding: 50px 20px;
-  color: rgb(216, 12, 87);
+  background: #e6f0ff; /* light blue */
+  color: #1a237e;
 }
 
 .project-container {
@@ -348,7 +349,7 @@ header {
 .contact {
   text-align: center;
   padding: 30px 20px;
-  background: rgb(255, 233, 233);
+  background: rgb(211, 255, 194);
   color: rgb(216, 12, 87);
   margin-top: 30px;
 }
