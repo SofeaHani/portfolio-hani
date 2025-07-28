@@ -70,7 +70,7 @@ function App() {
     }}
   >
     {/* Technical Skills - Left */}
-    <div style={{ flex: 1, minWidth: '250px', marginBottom: '32px' }}>
+    <div style={{ flex: 1, minWidth: '150px', marginBottom: '32px' }}>
       <h2 style={{ marginBottom: '32px', color: '#d80c57' }}>Technical Skills</h2>
       <div className="grid">
         {[
@@ -81,6 +81,7 @@ function App() {
           { img: 'react.png', title: 'React' },
           { img: 'git.png', title: 'Git & GitHub' },
           { img: 'php.png', title: 'Php' },
+          { img: 'phpmyadmin.png', title: 'PhpMyAdmin' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
             <img src={skill.img} alt={skill.title} style={{ width: '100px', height: '100px', marginBottom: '10px' }} /><br />
