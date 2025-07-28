@@ -80,24 +80,6 @@ function App() {
         ))}
       </div>
     </div>
-    {/* Soft Skills */}
-    <div style={{ minWidth: '200px' }}>
-      <h2 style={{ marginBottom: '32px', color: '#d80c57' }}>Soft Skills</h2>
-      <div className="grid">
-        {[
-          { title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
-          { title: 'Communication', desc: 'Strong written and verbal communication skills.' },
-          { title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
-          { title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
-          { title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' }
-        ].map((skill, index) => (
-          <div className="grid-card" key={index}>
-            <span>{skill.title}</span>
-            <p>{skill.desc}</p>
-          </div>
-        ))}
-      </div>
-    </div>
   </div>
 </section>
 
