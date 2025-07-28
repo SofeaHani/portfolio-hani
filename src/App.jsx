@@ -47,7 +47,7 @@ function App() {
           <div className="text">
             <h1 style={{ marginTop: '30px' }}>Hello, My Name is</h1>
             <h1 style={{ marginTop: '15px', color: 'rgb(216, 12, 87)' }}>Sofea Hani Binti Sharifudin</h1>
-            <h2 style={{ marginTop: '15px' }}>I'm a computer science graduate specialized <br /> on software development,machine learning and ui/ux design</h2>
+            <h2 style={{ marginTop: '15px' }}>I'm a computer science graduate specialized <br /> on software development and machine learning </h2>
             <div className="buttons" style={{ marginTop: '30px' }}>
               <a href="RESUME SOFEA HANI BINTI SHARIFUDIN.pdf" download className="cv-btn">Download Resume</a>
               <a href="#contact" className="cv-btn">Contact</a>
@@ -65,15 +65,15 @@ function App() {
       <h2 style={{ marginBottom: '32px', color: '#d80c57' }}>Technical Skills</h2>
       <div className="grid">
         {[
-          { title: 'HTML', desc: 'HTML is the standard markup language for creating web pages.' },
+          { img: 'html.png', title: 'HTML', desc: 'HTML is the standard markup language for creating web pages.' },
           { title: 'CSS', desc: 'CSS is the language we use to style an HTML document.' },
           { title: 'JavaScript', desc: 'JavaScript is the programming language of the Web.' },
           { title: 'Bootstrap', desc: 'Bootstrap is a framework for building responsive websites quickly.' },
           { title: 'React', desc: 'React is a JavaScript library for building user interfaces.' },
           { title: 'Git & GitHub', desc: 'Version control system for tracking changes in code.' },
-          { title: 'UI/UX Design', desc: 'Designing user-friendly interfaces with a focus on experience.' }
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
+            <img src={skill.img} alt={skill.title} style={{ width: '48px', height: '48px', marginBottom: '10px' }} />
             <span>{skill.title}</span>
             <p>{skill.desc}</p>
           </div>
@@ -87,7 +87,7 @@ function App() {
         {[
           { title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
           { title: 'Communication', desc: 'Strong written and verbal communication skills.' },
-          { title: 'Problem Solving', desc: 'Adept at analyzing and solving complex problems.' },
+          { title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
           { title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
           { title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' }
         ].map((skill, index) => (
