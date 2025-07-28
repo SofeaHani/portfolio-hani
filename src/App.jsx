@@ -123,7 +123,7 @@ function App() {
           {/* Project Cards */}
           <div className="cert-card">
             <img src="ExploreGenerativeAI.jpeg" alt="Project X" />
-            <h4>Explore Generative AI <br /> Certificate</h4>
+            <h4 style={{ marginTop: '16px' }}>Explore Generative AI <br /> Certificate</h4>
             <div className="buttons">
               <a href="EXPLORE GENERATIVE AI CERTIFICATE.pdf" className="project-btn">Certificate</a>
             </div>
