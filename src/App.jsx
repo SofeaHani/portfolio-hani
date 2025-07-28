@@ -88,7 +88,7 @@ function App() {
           { img: 'scikit-learn.png', title: 'Scikit Learn' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
-            <img src={skill.img} alt={skill.title} style={{ width: '40px', height: '40px', marginBottom: '10px' }} /><br />
+            <img src={skill.img} alt={skill.title} style={{ width: '45px', height: '45px', marginBottom: '10px' }} /><br />
             <span style={{ fontSize: '1.1rem' }}>{skill.title}</span>
             <p style={{ fontSize: '0.9rem' }}>{skill.desc}</p>
           </div>
