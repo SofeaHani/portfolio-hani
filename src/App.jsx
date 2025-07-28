@@ -123,14 +123,14 @@ function App() {
           {/* Project Cards */}
           <div className="cert-card">
             <img src="ExploreGenerativeAI.jpeg" alt="Project X" />
-            <h4 style={{ marginTop: '16px' }}>Explore Generative AI <br /> Certificate</h4>
+            <h3 style={{ marginTop: '16px' }}>Microsoft Explore Generative AI <br /> Certificate</h3>
             <div className="buttons">
               <a href="EXPLORE GENERATIVE AI CERTIFICATE.pdf" className="project-btn">Certificate</a>
             </div>
           </div>
 
           <div className="cert-card">
-            <img src="project2.jpeg" alt="Project Y" />
+            <img src="MachineLearning.jpeg" alt="Project Y" />
             <h3>One Time Pad Cipher System</h3>
             <p>Description Project 2</p>
             <div className="buttons">
