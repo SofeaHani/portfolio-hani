@@ -122,12 +122,10 @@ function App() {
         <div className="cert-container">
           {/* Project Cards */}
           <div className="cert-card">
-            <img src="project1.jpeg" alt="Project X" />
-            <h4>[Final Year Project] <br /> Traditional Malay Women Fashion Product Recommendation System Using CNN Deep Learning</h4>
-            <p>Description Project 1</p>
+            <img src="ExploreGenerativeAI.jpeg" alt="Project X" />
+            <h4>Explore Generative AI <br /> Certificate</h4>
             <div className="buttons">
-              <a href="#" className="project-btn">Live Demo</a>
-              <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn">Github Repo</a>
+              <a href="EXPLORE GENERATIVE AI CERTIFICATE.pdf" className="project-btn">Certificate</a>
             </div>
           </div>
 
