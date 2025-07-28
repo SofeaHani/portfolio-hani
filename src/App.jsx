@@ -56,28 +56,50 @@ function App() {
         </div>
       </section>
 
-      {/* Skills Section */}
-      <section className="skills" id="skills">
-        <h2 className="section-title" style={{ marginTop: '-30px' }}>My Skills</h2>
-        <div className="skills-info">
-          <div className="grid">
-            {[
-              { title: 'HTML', desc: 'HTML is the standard markup language for creating web pages.' },
-              { title: 'CSS', desc: 'CSS is the language we use to style an HTML document.' },
-              { title: 'JavaScript', desc: 'JavaScript is the programming language of the Web.' },
-              { title: 'Bootstrap', desc: 'Bootstrap is a framework for building responsive websites quickly.' },
-              { title: 'React', desc: 'React is a JavaScript library for building user interfaces.' },
-              { title: 'Git & GitHub', desc: 'Version control system for tracking changes in code.' },
-              { title: 'UI/UX Design', desc: 'Designing user-friendly interfaces with a focus on experience.' }
-            ].map((skill, index) => (
-              <div className="grid-card" key={index}>
-                <span>{skill.title}</span>
-                <p>{skill.desc}</p>
-              </div>
-            ))}
+    {/* Skills Section */}
+<section className="skills" id="skills">
+  <h2 className="section-title" style={{ marginTop: '-30px' }}>My Skills</h2>
+  <div className="skills-info" style={{ display: 'flex', gap: '40px', flexWrap: 'wrap' }}>
+    {/* Technical Skills */}
+    <div style={{ flex: 1, minWidth: '250px' }}>
+      <h3 style={{ marginBottom: '16px', color: '#d80c57' }}>Technical Skills</h3>
+      <div className="grid">
+        {[
+          { title: 'HTML', desc: 'HTML is the standard markup language for creating web pages.' },
+          { title: 'CSS', desc: 'CSS is the language we use to style an HTML document.' },
+          { title: 'JavaScript', desc: 'JavaScript is the programming language of the Web.' },
+          { title: 'Bootstrap', desc: 'Bootstrap is a framework for building responsive websites quickly.' },
+          { title: 'React', desc: 'React is a JavaScript library for building user interfaces.' },
+          { title: 'Git & GitHub', desc: 'Version control system for tracking changes in code.' },
+          { title: 'UI/UX Design', desc: 'Designing user-friendly interfaces with a focus on experience.' }
+        ].map((skill, index) => (
+          <div className="grid-card" key={index}>
+            <span>{skill.title}</span>
+            <p>{skill.desc}</p>
           </div>
-        </div>
-      </section>
+        ))}
+      </div>
+    </div>
+    {/* Soft Skills */}
+    <div style={{ flex: 1, minWidth: '250px' }}>
+      <h3 style={{ marginBottom: '16px', color: '#d80c57' }}>Soft Skills</h3>
+      <div className="grid">
+        {[
+          { title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
+          { title: 'Communication', desc: 'Strong written and verbal communication skills.' },
+          { title: 'Problem Solving', desc: 'Adept at analyzing and solving complex problems.' },
+          { title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
+          { title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' }
+        ].map((skill, index) => (
+          <div className="grid-card" key={index}>
+            <span>{skill.title}</span>
+            <p>{skill.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Projects Section */}
       <section className="projects" id="projects">
@@ -163,3 +185,5 @@ function App() {
 }
 
 export default App;
+
+               
