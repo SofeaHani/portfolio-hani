@@ -131,7 +131,7 @@ function App() {
 
           <div className="cert-card">
             <img src="MachineLearning.jpeg" alt="Project Y" />
-            <h4 style={{ marginTop: '16px' }}>One Time Pad Cipher System</h4>
+            <h4 style={{ marginTop: '16px' }}>Getting Started with Machine Learning Algorithm <br /> Certificate</h4>
             <div className="buttons">
               <a href="MACHINE LEARNING CERTIFICATE SIMPLI LEARN.pdf" className="cert-btn">Certificate</a>
             </div>
