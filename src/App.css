@@ -345,6 +345,21 @@ header {
   color: white;
 }
 
+/* Custom border for each skill card */
+.grid-card {
+  border: 2px solid #d80c57;      /* Pink border */
+  border-radius: 12px;             /* Rounded corners */
+  padding: 1.2rem;                 /* Spacing inside */
+  margin-bottom: 18px;             /* Space between cards */
+  background: #fff;                /* White background */
+  box-shadow: 0 2px 8px rgba(216, 12, 87, 0.08); /* Subtle pink shadow */
+  transition: box-shadow 0.3s;
+}
+.grid-card:hover {
+  box-shadow: 0 4px 16px rgba(216, 12, 87, 0.18);
+  border-color: #ff176c;
+}
+
 .cert-btn {
   text-decoration: none;
   padding: 8px 15px;
