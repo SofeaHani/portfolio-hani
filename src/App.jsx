@@ -58,7 +58,7 @@ function App() {
 
 {/* Skills Section */}
 <section className="skills" id="skills">
-  <h2 className="section-title" style={{ marginTop: '-30px' }}>My Skills</h2>
+  <h2 className="section-title" style={{ marginTop: '-30px' }}>Skills</h2>
   <div className="skills-info" style={{ gap: '40px' }}>
     {/* Technical Skills */}
     <div style={{ minWidth: '200px', marginBottom: '32px' }}>
