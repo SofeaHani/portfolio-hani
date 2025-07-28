@@ -139,8 +139,7 @@ function App() {
 
           <div className="cert-card">
             <img src="GraphicDesign.jpeg" alt="Project Z" />
-            <h4 style={{ marginTop: '16px' }}>Graphic Design Basic of UIUX <br /> Certificate</h4>
-            <p>Description Project 3</p>
+            <h4 style={{ marginTop: '16px' }}>Introduction to Graphic Design Basic of UIUX <br /> Certificate</h4>
             <div className="buttons">
               <a href="GRAPHIC DESIGN Basic of UIUX Certificate.pdf" className="cert-btn">Certificate</a>
             </div>
