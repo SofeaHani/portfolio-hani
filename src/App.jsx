@@ -82,9 +82,12 @@ function App() {
           { img: 'git.png', title: 'Git & GitHub' },
           { img: 'php.png', title: 'Php' },
           { img: 'phpmyadmin.png', title: 'PhpMyAdmin' },
+          { img: 'python.png', title: 'Python' },
+          { img: 'tensorflow.png', title: 'Tensorflow' },
+          { img: 'keras.png', title: 'Keras' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
-            <img src={skill.img} alt={skill.title} style={{ width: '50px', height: '50px', marginBottom: '10px' }} /><br />
+            <img src={skill.img} alt={skill.title} style={{ width: '30px', height: '30px', marginBottom: '10px' }} /><br />
             <span style={{ fontSize: '1.1rem' }}>{skill.title}</span>
             <p style={{ fontSize: '0.9rem' }}>{skill.desc}</p>
           </div>
