@@ -59,29 +59,57 @@ function App() {
 {/* Skills Section */}
 <section className="skills" id="skills">
   <h2 className="section-title" style={{ marginTop: '-30px' }}>Skills</h2>
-  <div className="skills-info" style={{ gap: '40px' }}>
-    {/* Technical Skills */}
-    <div style={{ minWidth: '200px', marginBottom: '32px' }}>
+  <div
+    className="skills-info"
+    style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'flex-start',
+      gap: '40px',
+      flexWrap: 'wrap'
+    }}
+  >
+    {/* Technical Skills - Left */}
+    <div style={{ flex: 1, minWidth: '250px', marginBottom: '32px' }}>
       <h2 style={{ marginBottom: '32px', color: '#d80c57' }}>Technical Skills</h2>
       <div className="grid">
         {[
           { img: 'html.png', title: 'HTML' },
-          { img: 'css.png',title: 'CSS' },
-          { img: 'javascript.png',title: 'JavaScript' },
-          { img: 'bootstrap.png',title: 'Bootstrap' },
-          { img: 'react.png',title: 'React' },
-          { img: 'git.png',title: 'Git & GitHub' },
+          { img: 'css.png', title: 'CSS' },
+          { img: 'javascript.png', title: 'JavaScript' },
+          { img: 'bootstrap.png', title: 'Bootstrap' },
+          { img: 'react.png', title: 'React' },
+          { img: 'git.png', title: 'Git & GitHub' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
-          <img src={skill.img} alt={skill.title} style={{ width: '100px', height: '100px', marginBottom: '10px' }} /><br />
+            <img src={skill.img} alt={skill.title} style={{ width: '100px', height: '100px', marginBottom: '10px' }} /><br />
             <span>{skill.title}</span>
             <p>{skill.desc}</p>
           </div>
         ))}
       </div>
     </div>
-  </div>
-</section>
+    {/* Soft Skills - Right */}
+    <div style={{ flex: 1, minWidth: '250px' }}>
+      <h2 style={{ marginBottom: '32px', color: '#d80c57' }}>Soft Skills</h2>
+      <div className="grid">
+        {[
+          { img: 'teamwork.png', title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
+          { img: 'communication.png', title: 'Communication', desc: 'Strong written and verbal communication skills.' },
+          { img: 'problem.png', title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
+          { img: 'adaptability.png', title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
+          { img: 'time.png', title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' }
+        ].map((skill, index) => (
+          <div className="grid-card" key={index}>
+            <img src={skill.img} alt={skill.title} style={{ width: '100px', height: '100px', marginBottom: '10px' }} /><br />
+            <span>{skill.title}</span>
+            <p>{skill.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+     </div>
+   </section>
 
       {/* Projects Section */}
       <section className="projects" id="projects">
