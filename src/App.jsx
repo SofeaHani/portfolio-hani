@@ -73,7 +73,7 @@ function App() {
           { title: 'Git & GitHub', desc: 'Version control system for tracking changes in code.' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
-            <img src={skill.img} alt={skill.title} style={{ width: '48px', height: '48px', marginBottom: '10px' }} />
+ <img src={skill.img} alt={skill.title} style={{ width: '48px', height: '48px', marginBottom: '10px' }} /><br />
             <span>{skill.title}</span>
             <p>{skill.desc}</p>
           </div>
