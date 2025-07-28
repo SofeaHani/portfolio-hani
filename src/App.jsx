@@ -56,12 +56,12 @@ function App() {
         </div>
       </section>
 
-    {/* Skills Section */}
+{/* Skills Section */}
 <section className="skills" id="skills">
   <h2 className="section-title" style={{ marginTop: '-30px' }}>My Skills</h2>
-  <div className="skills-info" style={{ display: 'flex', gap: '40px', flexWrap: 'wrap' }}>
+  <div className="skills-info" style={{ gap: '40px' }}>
     {/* Technical Skills */}
-    <div style={{ flex: 1, minWidth: '200px' }}>
+    <div style={{ minWidth: '200px', marginBottom: '32px' }}>
       <h2 style={{ marginBottom: '16px', color: '#d80c57' }}>Technical Skills</h2>
       <div className="grid">
         {[
@@ -81,7 +81,7 @@ function App() {
       </div>
     </div>
     {/* Soft Skills */}
-    <div style={{ flex: 1, minWidth: '200px' }}>
+    <div style={{ minWidth: '200px' }}>
       <h2 style={{ marginBottom: '16px', color: '#d80c57' }}>Soft Skills</h2>
       <div className="grid">
         {[
