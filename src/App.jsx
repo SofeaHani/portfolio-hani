@@ -66,14 +66,14 @@ function App() {
       <div className="grid">
         {[
           { img: 'html.png', title: 'HTML', desc: 'HTML is the standard markup language for creating web pages.' },
-          { title: 'CSS', desc: 'CSS is the language we use to style an HTML document.' },
+          { img: 'css.png',title: 'CSS', desc: 'CSS is the language we use to style an HTML document.' },
           { title: 'JavaScript', desc: 'JavaScript is the programming language of the Web.' },
           { title: 'Bootstrap', desc: 'Bootstrap is a framework for building responsive websites quickly.' },
           { title: 'React', desc: 'React is a JavaScript library for building user interfaces.' },
           { title: 'Git & GitHub', desc: 'Version control system for tracking changes in code.' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
-          <img src={skill.img} alt={skill.title} style={{ width: '60px', height: '60px', marginBottom: '10px' }} /><br />
+          <img src={skill.img} alt={skill.title} style={{ width: '100px', height: '100px', marginBottom: '10px' }} /><br />
             <span>{skill.title}</span>
             <p>{skill.desc}</p>
           </div>
