@@ -69,7 +69,7 @@ function App() {
           { img: 'css.png',title: 'CSS' },
           { img: 'javascript.png',title: 'JavaScript' },
           { img: 'bootstrap.png',title: 'Bootstrap' },
-          { img: 'react.png',title: 'React',
+          { img: 'react.png',title: 'React' },
           { img: 'git.png',title: 'Git & GitHub' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
