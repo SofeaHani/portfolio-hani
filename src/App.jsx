@@ -125,16 +125,15 @@ function App() {
             <img src="ExploreGenerativeAI.jpeg" alt="Project X" />
             <h4 style={{ marginTop: '16px' }}>Microsoft Explore Generative AI <br /> Certificate</h4>
             <div className="buttons">
-              <a href="EXPLORE GENERATIVE AI CERTIFICATE.pdf" className="project-btn">Certificate</a>
+              <a href="EXPLORE GENERATIVE AI CERTIFICATE.pdf" className="cert-btn">Certificate</a>
             </div>
           </div>
 
           <div className="cert-card">
             <img src="MachineLearning.jpeg" alt="Project Y" />
-            <h4>One Time Pad Cipher System</h4>
+            <h4 style={{ marginTop: '16px' }}>One Time Pad Cipher System</h4>
             <div className="buttons">
-              <a href="#" className="project-btn">Live Demo</a>
-              <a href="https://github.com/SofeaHani/One-Time-Pad-Cipher-System" className="project-btn">Github Repo</a>
+              <a href="https://github.com/SofeaHani/One-Time-Pad-Cipher-System" className="cert-btn">Github Repo</a>
             </div>
           </div>
 

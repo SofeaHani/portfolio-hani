@@ -345,6 +345,21 @@ header {
   color: white;
 }
 
+.cert-btn {
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.cert-btn:hover {
+  background: rgb(216, 12, 87);
+  color: white;
+}
+
 /* Certification Section */
 .certs {
   text-align: center;
