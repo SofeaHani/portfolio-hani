@@ -85,7 +85,7 @@ function App() {
           { img: 'python.png', title: 'Python' },
           { img: 'tensorflow.png', title: 'Tensorflow' },
           { img: 'keras.png', title: 'Keras' },
-          { img: 'scikitlearn.png', title: 'Scikit Learn' },
+          { img: 'scikit-learn.png', title: 'Scikit Learn' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
             <img src={skill.img} alt={skill.title} style={{ width: '40px', height: '40px', marginBottom: '10px' }} /><br />
