@@ -138,12 +138,11 @@ function App() {
           </div>
 
           <div className="cert-card">
-            <img src="project3.jpeg" alt="Project Z" />
-            <h3>Software Engineer Salary Prediction System</h3>
+            <img src="GraphicDesign.jpeg" alt="Project Z" />
+            <h4 style={{ marginTop: '16px' }}>Graphic Design Basic of UIUX <br /> Certificate</h4>
             <p>Description Project 3</p>
             <div className="buttons">
-              <a href="#" className="project-btn">Live Demo</a>
-              <a href="#" className="project-btn">Github Repo</a>
+              <a href="GRAPHIC DESIGN Basic of UIUX Certificate.pdf" className="cert-btn">Certificate</a>
             </div>
           </div>
         </div>
