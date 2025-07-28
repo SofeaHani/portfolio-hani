@@ -133,7 +133,7 @@ function App() {
             <img src="MachineLearning.jpeg" alt="Project Y" />
             <h4 style={{ marginTop: '16px' }}>One Time Pad Cipher System</h4>
             <div className="buttons">
-              <a href="https://github.com/SofeaHani/One-Time-Pad-Cipher-System" className="cert-btn">Github Repo</a>
+              <a href="MACHINE LEARNING CERTIFICATE SIMPLI LEARN.pdf" className="cert-btn">Certificate</a>
             </div>
           </div>
 
