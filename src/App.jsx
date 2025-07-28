@@ -84,9 +84,9 @@ function App() {
           { img: 'phpmyadmin.png', title: 'PhpMyAdmin' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
-            <img src={skill.img} alt={skill.title} style={{ width: '100px', height: '100px', marginBottom: '10px' }} /><br />
-            <span>{skill.title}</span>
-            <p>{skill.desc}</p>
+            <img src={skill.img} alt={skill.title} style={{ width: '50px', height: '50px', marginBottom: '10px' }} /><br />
+            <span style={{ fontSize: '1.1rem' }}>{skill.title}</span>
+            <p style={{ fontSize: '0.9rem' }}>{skill.desc}</p>
           </div>
         ))}
       </div>
