@@ -102,7 +102,6 @@ function App() {
           { title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' }
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
-            <img src={skill.img} alt={skill.title} style={{ width: '100px', height: '100px', marginBottom: '10px' }} /><br />
             <span>{skill.title}</span>
             <p>{skill.desc}</p>
           </div>
