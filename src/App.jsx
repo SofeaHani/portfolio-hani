@@ -61,8 +61,8 @@ function App() {
   <h2 className="section-title" style={{ marginTop: '-30px' }}>My Skills</h2>
   <div className="skills-info" style={{ display: 'flex', gap: '40px', flexWrap: 'wrap' }}>
     {/* Technical Skills */}
-    <div style={{ flex: 1, minWidth: '250px' }}>
-      <h3 style={{ marginBottom: '16px', color: '#d80c57' }}>Technical Skills</h3>
+    <div style={{ flex: 1, minWidth: '200px' }}>
+      <h2 style={{ marginBottom: '16px', color: '#d80c57' }}>Technical Skills</h2>
       <div className="grid">
         {[
           { title: 'HTML', desc: 'HTML is the standard markup language for creating web pages.' },
@@ -81,8 +81,8 @@ function App() {
       </div>
     </div>
     {/* Soft Skills */}
-    <div style={{ flex: 1, minWidth: '250px' }}>
-      <h3 style={{ marginBottom: '16px', color: '#d80c57' }}>Soft Skills</h3>
+    <div style={{ flex: 1, minWidth: '200px' }}>
+      <h2 style={{ marginBottom: '16px', color: '#d80c57' }}>Soft Skills</h2>
       <div className="grid">
         {[
           { title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
