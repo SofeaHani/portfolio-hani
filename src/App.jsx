@@ -65,7 +65,7 @@ function App() {
       <h2 style={{ marginBottom: '32px', color: '#d80c57' }}>Technical Skills</h2>
       <div className="grid">
         {[
-          { title: 'HTML', desc: 'HTML is the standard markup language for creating web pages.' },
+          { img: 'html.png', title: 'HTML', desc: 'HTML is the standard markup language for creating web pages.' },
           { title: 'CSS', desc: 'CSS is the language we use to style an HTML document.' },
           { title: 'JavaScript', desc: 'JavaScript is the programming language of the Web.' },
           { title: 'Bootstrap', desc: 'Bootstrap is a framework for building responsive websites quickly.' },
