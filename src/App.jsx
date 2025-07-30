@@ -116,42 +116,90 @@ function App() {
      </div>
    </section>
 
-      {/* Projects Section */}
-      <section className="projects" id="projects">
-        <h2 className="section-title">Projects</h2>
-        <div className="project-container">
-          {/* Project Cards */}
-          <div className="project-card">
-            <img src="project1.jpeg" alt="Project X" />
-            <h4 style={{ marginTop: '18px', textAlign: 'left' }}>[Final Year Project] <br /> Traditional Malay Women Fashion Product Recommendation System Using CNN Deep Learning</h4>
-            <p>Description Project 1</p>
-            <div className="buttons">
-              <a href="#" className="project-btn">Live Demo</a>
-              <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn">Github Repo</a>
-            </div>
-          </div>
-
-          <div className="project-card">
-            <img src="Customercomplaintsystem.jpeg" alt="Project Y" />
-            <h3>Customer Complaint System</h3>
-            <p>Description Project 2</p>
-            <div className="buttons">
-              <a href="#" className="project-btn">Live Demo</a>
-              <a href="https://github.com/SofeaHani/One-Time-Pad-Cipher-System" className="project-btn">Github Repo</a>
-            </div>
-          </div>
-
-          <div className="project-card">
-            <img src="project3.jpeg" alt="Project Z" />
-            <h3>Software Engineer Salary Prediction System</h3>
-            <p>Description Project 3</p>
-            <div className="buttons">
-              <a href="#" className="project-btn">Live Demo</a>
-              <a href="#" className="project-btn">Github Repo</a>
-            </div>
-          </div>
+     {/* Projects Section */}
+<section className="projects" id="projects">
+  <h2 className="section-title">Projects</h2>
+  <div className="project-container" style={{ display: 'flex', gap: '32px', justifyContent: 'center', flexWrap: 'wrap' }}>
+    {/* Project Card 1 */}
+    <div className="project-card modern-card" style={{ width: '400px', background: '#0a2342', color: '#fff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
+      <div style={{ background: 'linear-gradient(90deg,#ffd600,#ff6e40)', padding: 0 }}>
+        <img src="project1.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
+      </div>
+      <div style={{ padding: '24px' }}>
+        <span style={{ background: '#fff', color: '#0a2342', borderRadius: '12px', padding: '4px 12px', fontSize: '0.9rem', fontWeight: 600, marginBottom: '12px', display: 'inline-block' }}>Python</span>
+        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '18px 0 12px 0' }}>Cultural-Sensitive Speech Emotion Recognition</h3>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e0e0e0' }}>
+          Developed cross-cultural speech emotion recognition system analyzing audio features (MFCCs) from Malaysian, USA, and German datasets using machine learning models (MLP, KNN, SVM) to address cultural bias in AI systems.
+        </p>
+        <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+          {['Scikit-learn', 'Librosa', 'MLP', 'KNN', 'SVM'].map(tag => (
+            <span key={tag} style={{ background: '#19376d', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
+          ))}
         </div>
-      </section>
+        <div style={{ display: 'flex', gap: '12px' }}>
+          <a href="#" className="project-btn" style={{ background: '#0a2342', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <span role="img" aria-label="code">💻</span> Code
+          </a>
+          <a href="#" className="project-btn" style={{ background: '#1abc9c', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <span role="img" aria-label="demo">🔗</span> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+    {/* Project Card 2 */}
+    <div className="project-card modern-card" style={{ width: '400px', background: '#0a2342', color: '#fff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
+      <div style={{ background: 'linear-gradient(90deg,#43e97b,#38f9d7)', padding: 0 }}>
+        <img src="Customercomplaintsystem.jpeg" alt="Project Y" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
+      </div>
+      <div style={{ padding: '24px' }}>
+        <span style={{ background: '#fff', color: '#0a2342', borderRadius: '12px', padding: '4px 12px', fontSize: '0.9rem', fontWeight: 600, marginBottom: '12px', display: 'inline-block' }}>Python</span>
+        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '18px 0 12px 0' }}>E-commerce Gaming Mouse Sentiment Analysis</h3>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e0e0e0' }}>
+          Scraped and analyzed 1,000 gaming mouse reviews from Amazon using web scraping techniques. Implemented comparative sentiment analysis using VADER lexicon-based approach and DistilBERT transformer model, achieving 85% accuracy.
+        </p>
+        <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+          {['Transformer', 'Selenium', 'VADER', 'DistilBERT', 'NLP', 'NLTK'].map(tag => (
+            <span key={tag} style={{ background: '#19376d', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
+          ))}
+        </div>
+        <div style={{ display: 'flex', gap: '12px' }}>
+          <a href="#" className="project-btn" style={{ background: '#0a2342', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <span role="img" aria-label="code">💻</span> Code
+          </a>
+          <a href="#" className="project-btn" style={{ background: '#1abc9c', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <span role="img" aria-label="demo">🔗</span> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+    {/* Project Card 3 */}
+    <div className="project-card modern-card" style={{ width: '400px', background: '#0a2342', color: '#fff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
+      <div style={{ background: 'linear-gradient(90deg,#a770ef,#f6d365)', padding: 0 }}>
+        <img src="project3.jpeg" alt="Project Z" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
+      </div>
+      <div style={{ padding: '24px' }}>
+        <span style={{ background: '#fff', color: '#0a2342', borderRadius: '12px', padding: '4px 12px', fontSize: '0.9rem', fontWeight: 600, marginBottom: '12px', display: 'inline-block' }}>Power BI</span>
+        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '18px 0 12px 0' }}>IT Budget Management Dashboard</h3>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e0e0e0' }}>
+          Built interactive Power BI dashboards to track and visualize annual CAPEX and OPEX performance, enabling stakeholders to monitor RM150 million budget allocations and identify cost optimization opportunities for FY2024.
+        </p>
+        <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+          {['Data Visualization', 'Business Intelligence'].map(tag => (
+            <span key={tag} style={{ background: '#19376d', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
+          ))}
+        </div>
+        <div style={{ display: 'flex', gap: '12px' }}>
+          <a href="#" className="project-btn" style={{ background: '#0a2342', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <span role="img" aria-label="code">💻</span> Code
+          </a>
+          <a href="#" className="project-btn" style={{ background: '#1abc9c', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+            <span role="img" aria-label="demo">🔗</span> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Certificate Section */}
       <section className="certs" id="certs">
