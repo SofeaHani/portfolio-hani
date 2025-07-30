@@ -151,7 +151,7 @@ function App() {
       </div>
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Customer Complaint System</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'left' }}>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'justify' }}>
           Developed a web based customer complaint system that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
@@ -173,7 +173,7 @@ function App() {
       </div>
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}> Software Engineer Salary Prediction System</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'left' }}>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'justify' }}>
           Built an AI-driven salary prediction system to estimate software engineer salaries based on education level, country, and years of experience for the purpose of providing insights into salary expectations in the software engineering field.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
