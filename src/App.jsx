@@ -124,9 +124,9 @@ function App() {
     <div className="project-card" style={{ width: '900px', height: '260px', display: 'flex', alignItems: 'center', padding: '32px', margin: '0 auto' }}>
       <img src="project1.jpeg" alt="Project X" style={{ width: '320px', height: '180px', borderRadius: '12px', marginRight: '32px', objectFit: 'cover' }} />
       <div style={{ flex: 1 }}>
-        <h4 style={{ fontSize: '1.0rem', marginBottom: '12px' }}>
+        <h3 style={{ fontSize: '1.5rem', marginBottom: '12px' }}>
           [Final Year Project] <br /> Traditional Malay Women Fashion Product Recommendation System Using CNN Deep Learning
-        </h4>
+        </h3>
         <p style={{ fontStyle: 'italic', marginBottom: '18px' }}>Description Project 1</p>
         <div className="buttons">
           <a href="#" className="project-btn">Live Demo</a>
