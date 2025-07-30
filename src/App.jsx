@@ -149,7 +149,7 @@ function App() {
       </div>
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Customer Complaint System</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e72058ff', textAlign: 'left' }}>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#a20934ff', textAlign: 'left' }}>
           Developed a web based customer complaint system that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
@@ -165,27 +165,23 @@ function App() {
       </div>
     </div>
     {/* Project Card 3 */}
-    <div className="project-card modern-card" style={{ width: '400px', background: '#0a2342', color: '#fff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
-      <div style={{ background: 'linear-gradient(90deg,#a770ef,#f6d365)', padding: 0 }}>
-        <img src="project3.jpeg" alt="Project Z" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
+    <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
+      <div >
+        <img src="Customercomplaintsystem.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
       </div>
       <div style={{ padding: '24px' }}>
-        <span style={{ background: '#fff', color: '#0a2342', borderRadius: '12px', padding: '4px 12px', fontSize: '0.9rem', fontWeight: 600, marginBottom: '12px', display: 'inline-block' }}>Power BI</span>
-        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '18px 0 12px 0' }}>IT Budget Management Dashboard</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e0e0e0' }}>
-          Built interactive Power BI dashboards to track and visualize annual CAPEX and OPEX performance, enabling stakeholders to monitor RM150 million budget allocations and identify cost optimization opportunities for FY2024.
+        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Customer Complaint System</h3>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#a20934ff', textAlign: 'left' }}>
+          Developed a web based customer complaint system that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {['Data Visualization', 'Business Intelligence'].map(tag => (
-            <span key={tag} style={{ background: '#19376d', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
+          {['Html','Css','Javascript','Bootstrap','jQuery','Php','PhpMyAdmin'].map(tag => (
+            <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
           ))}
         </div>
         <div style={{ display: 'flex', gap: '12px' }}>
-          <a href="#" className="project-btn" style={{ background: '#0a2342', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span role="img" aria-label="code">💻</span> Code
-          </a>
-          <a href="#" className="project-btn" style={{ background: '#1abc9c', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span role="img" aria-label="demo">🔗</span> Demo
+          <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> Code
           </a>
         </div>
       </div>
