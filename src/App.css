@@ -283,6 +283,7 @@ header {
 
 .project-container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
@@ -308,7 +309,9 @@ header {
   width: 100%;
   height: auto;
   border-radius: 10px;
+  margin-right: 32px;
   border: 3px solid rgba(255, 36, 142);
+  object-fit: cover;
 }
 
 .project-card h3 {
@@ -549,6 +552,25 @@ header {
       flex-direction: column;
       align-items: center;
   }
+
+  .project-card {
+    width: 98vw;
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  .project-card h3, .project-card h4 {
+    font-size: 1.1rem;
+  }
+  .project-btn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
 }
 
 /* Tablet Devices (max-width: 1024px) */
@@ -560,5 +582,24 @@ header {
   .about {
       flex-direction: column;
       text-align: center;
+  }
+
+   .project-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .project-card {
+    width: 95vw;
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+  }
+  .project-card img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 18px;
   }
 }
