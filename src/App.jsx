@@ -126,8 +126,8 @@ function App() {
         <img src="project1.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
       </div>
       <div style={{ padding: '24px' }}>
-        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '18px 0 12px 0' }}>Cultural-Sensitive Speech Emotion Recognition</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e72058ff' }}>
+        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '18px 0 12px 0' , textAlign: 'left' }}>Traditional Malay Women Fashion Product Recommendation System</h3>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e72058ff', textAlign: 'left' }}>
           Developed a web based traditional malay women fashion product recommendation system aim to provide better recommendation fashion product using image based approach using Python,CNN,Keras,Tensorflow,Scikit-learn for Malay Women.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
