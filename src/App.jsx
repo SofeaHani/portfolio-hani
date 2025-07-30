@@ -139,9 +139,6 @@ function App() {
           <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
           <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> Code
           </a>
-          <a href="#" className="project-btn" style={{ background: '#1abc9c', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span role="img" aria-label="demo">🔗</span> Demo
-          </a>
         </div>
       </div>
     </div>
@@ -150,26 +147,27 @@ function App() {
       <div style={{ background: 'linear-gradient(90deg,#43e97b,#38f9d7)', padding: 0 }}>
         <img src="Customercomplaintsystem.jpeg" alt="Project Y" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
       </div>
+       <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
+      <div >
+        <img src="project1.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
+      </div>
       <div style={{ padding: '24px' }}>
-        <span style={{ background: '#fff', color: '#0a2342', borderRadius: '12px', padding: '4px 12px', fontSize: '0.9rem', fontWeight: 600, marginBottom: '12px', display: 'inline-block' }}>Python</span>
-        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '18px 0 12px 0' }}>E-commerce Gaming Mouse Sentiment Analysis</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e0e0e0' }}>
-          Scraped and analyzed 1,000 gaming mouse reviews from Amazon using web scraping techniques. Implemented comparative sentiment analysis using VADER lexicon-based approach and DistilBERT transformer model, achieving 85% accuracy.
+        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Traditional Malay Women Fashion Product Recommendation System</h3>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e72058ff', textAlign: 'left' }}>
+          Developed a web based traditional malay women fashion product recommendation system aim to provide better recommendation for malay women  fashion product consist of baju kurung,baju kebaya and tudung using image based approach for Malay Women.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {['Transformer', 'Selenium', 'VADER', 'DistilBERT', 'NLP', 'NLTK'].map(tag => (
-            <span key={tag} style={{ background: '#19376d', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
+          {['Python','CNN', 'Keras','Tensorflow','Scikit-learn'].map(tag => (
+            <span key={tag} style={{ background: '#af003dff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
           ))}
         </div>
         <div style={{ display: 'flex', gap: '12px' }}>
-          <a href="#" className="project-btn" style={{ background: '#0a2342', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span role="img" aria-label="code">💻</span> Code
-          </a>
-          <a href="#" className="project-btn" style={{ background: '#1abc9c', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span role="img" aria-label="demo">🔗</span> Demo
+          <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> Code
           </a>
         </div>
       </div>
+    </div>
     </div>
     {/* Project Card 3 */}
     <div className="project-card modern-card" style={{ width: '400px', background: '#0a2342', color: '#fff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
