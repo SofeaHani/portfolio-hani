@@ -150,10 +150,10 @@ function App() {
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Customer Complaint System</h3>
         <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e72058ff', textAlign: 'left' }}>
-          Developed a web based customer complaint system aim that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system
+          Developed a web based customer complaint system that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {['Html','Css','Javascript','Bootstrap','Php','PhpMyAdmin'].map(tag => (
+          {['Html','Css','Javascript','Bootstrap','jQuery','Php','PhpMyAdmin'].map(tag => (
             <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
           ))}
         </div>
