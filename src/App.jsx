@@ -132,8 +132,8 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="project2.jpeg" alt="Project Y" />
-            <h3>One Time Pad Cipher System</h3>
+            <img src="Customercomplaintsystem.jpeg" alt="Project Y" />
+            <h3>Customer Complaint System</h3>
             <p>Description Project 2</p>
             <div className="buttons">
               <a href="#" className="project-btn">Live Demo</a>
