@@ -132,7 +132,7 @@ function App() {
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
           {['Python','CNN', 'Keras','Tensorflow','Scikit-learn'].map(tag => (
-            <span key={tag} style={{ background: '#19376d', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
+            <span key={tag} style={{ background: '#af003dff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
           ))}
         </div>
         <div style={{ display: 'flex', gap: '12px' }}>
