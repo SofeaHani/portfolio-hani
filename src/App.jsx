@@ -128,7 +128,7 @@ function App() {
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Traditional Malay Women Fashion Product Recommendation System</h3>
         <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'left' }}>
-          Developed a web based traditional malay women fashion product recommendation system aim to provide better recommendation for malay women  fashion product consist of baju kurung,baju kebaya and tudung using image based approach for Malay Women.
+          Innovated a web based traditional malay women fashion product recommendation system aim to provide better recommendation for malay women  fashion product consist of baju kurung,baju kebaya and tudung using image based approach for Malay Women.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
           {['Python','CNN','Jupyter Notebook', 'Keras','Tensorflow','Scikit-learn'].map(tag => (
@@ -170,7 +170,7 @@ function App() {
         <img src="project3.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
       </div>
       <div style={{ padding: '24px' }}>
-        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Customer Complaint System</h3>
+        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}> Software Engineer Salary Prediction System</h3>
         <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'left' }}>
           Built an AI-driven salary prediction system to estimate software engineer salaries based on education level, country, and years of experience for the purpose of providing insights into salary expectations in the software engineering field.
         </p>
