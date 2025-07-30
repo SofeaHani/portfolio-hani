@@ -127,11 +127,11 @@ function App() {
       </div>
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Traditional Malay Women Fashion Product Recommendation System</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e72058ff', textAlign: 'left' }}>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'left' }}>
           Developed a web based traditional malay women fashion product recommendation system aim to provide better recommendation for malay women  fashion product consist of baju kurung,baju kebaya and tudung using image based approach for Malay Women.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {['Python','CNN', 'Keras','Tensorflow','Scikit-learn'].map(tag => (
+          {['Python','CNN','Jupyter Notebook', 'Keras','Tensorflow','Scikit-learn'].map(tag => (
             <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
           ))}
         </div>
@@ -149,7 +149,7 @@ function App() {
       </div>
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Customer Complaint System</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#a20934ff', textAlign: 'left' }}>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'left' }}>
           Developed a web based customer complaint system that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
@@ -171,7 +171,7 @@ function App() {
       </div>
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Customer Complaint System</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#a20934ff', textAlign: 'left' }}>
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'left' }}>
           Developed a web based customer complaint system that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
