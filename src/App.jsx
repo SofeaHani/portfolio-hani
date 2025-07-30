@@ -105,6 +105,7 @@ function App() {
           { img: 'problemsolving.png',title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
           { img: 'adaptation.png',title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
           { img: 'time.png',title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' }
+          { img: 'emotional.png',title: 'Emotional Intelligence', desc: 'Ability to understand and manage emotions effectively.' },
         ].map((skill, index) => (
           <div className="grid-card" key={index}>
             <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
