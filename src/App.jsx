@@ -123,7 +123,7 @@ function App() {
           {/* Project Cards */}
           <div className="project-card">
             <img src="project1.jpeg" alt="Project X" />
-            <h4>[Final Year Project] <br /> Traditional Malay Women Fashion Product Recommendation System Using CNN Deep Learning</h4>
+            <h4 style={{ marginBottom: '18px' }} >[Final Year Project] <br /> Traditional Malay Women Fashion Product Recommendation System Using CNN Deep Learning</h4>
             <p>Description Project 1</p>
             <div className="buttons">
               <a href="#" className="project-btn">Live Demo</a>
