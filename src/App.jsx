@@ -121,22 +121,22 @@ function App() {
   <h2 className="section-title">Projects</h2>
   <div className="project-container" style={{ display: 'flex', gap: '32px', justifyContent: 'center', flexWrap: 'wrap' }}>
     {/* Project Card 1 */}
-    <div className="project-card modern-card" style={{ width: '400px', background: '#ddecffff', color: '#ff618eff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
+    <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
       <div style={{ background: 'linear-gradient(90deg,#ffd600,#ff6e40)', padding: 0 }}>
         <img src="project1.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
       </div>
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '18px 0 12px 0' }}>Cultural-Sensitive Speech Emotion Recognition</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#ff618eff' }}>
-          Developed cross-cultural speech emotion recognition system analyzing audio features (MFCCs) from Malaysian, USA, and German datasets using machine learning models (MLP, KNN, SVM) to address cultural bias in AI systems.
+        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e72058ff' }}>
+          Developed a web based traditional malay women fashion product recommendation system aim to provide better recommendation fashion product using image based approach using Python,CNN,Keras,Tensorflow,Scikit-learn for Malay Women.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {['Scikit-learn','CNN', 'Python'].map(tag => (
+          {['Python','CNN', 'Keras','Tensorflow','Scikit-learn'].map(tag => (
             <span key={tag} style={{ background: '#19376d', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
           ))}
         </div>
         <div style={{ display: 'flex', gap: '12px' }}>
-          <a href="#" className="project-btn" style={{ background: '#0a2342', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn" style={{ background: '#0a2342', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
             <span role="img" aria-label="code">💻</span> Code
           </a>
           <a href="#" className="project-btn" style={{ background: '#1abc9c', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
