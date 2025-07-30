@@ -125,7 +125,7 @@ function App() {
     {/* Project Card 1 */}
     <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
       <div >
-        <img src="project1.jpeg" alt="Project X" style={{ width: '100%', height: '140px', objectFit: 'cover', display: 'block' }} />
+        <img src="project1.jpeg" alt="Project X" style={{ width: '80%', height: '160px', objectFit: 'cover', display: 'block' }} />
       </div>
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Traditional Malay Women Fashion Product Recommendation System</h3>
