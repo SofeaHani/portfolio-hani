@@ -156,16 +156,13 @@ function App() {
           Developed a web based traditional malay women fashion product recommendation system aim to provide better recommendation for malay women  fashion product consist of baju kurung,baju kebaya and tudung using image based approach for Malay Women.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {['Php','PhpMyAdmin'].map(tag => (
+          {['Html','Css','Javascript','Bootstrap','Php','PhpMyAdmin'].map(tag => (
             <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
           ))}
         </div>
         <div style={{ display: 'flex', gap: '12px' }}>
           <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
           <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> Code
-          </a>
-          <a href="#" className="project-btn" style={{ background: '#1abc9c', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-            <span role="img" aria-label="demo">🔗</span> Demo
           </a>
         </div>
       </div>
