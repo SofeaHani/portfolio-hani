@@ -116,45 +116,51 @@ function App() {
      </div>
    </section>
 
-      {/* Projects Section */}
+{/* Projects Section */}
 <section className="projects" id="projects">
   <h2 className="section-title">Projects</h2>
   <div className="project-container" style={{ flexDirection: 'column', alignItems: 'center', gap: '32px', display: 'flex' }}>
     {/* Project Cards */}
     <div className="project-card" style={{ width: '900px', height: '260px', display: 'flex', alignItems: 'center', padding: '32px', margin: '0 auto' }}>
-      <img src="project1.jpeg" alt="Project X" style={{ width: '320px', height: '180px', borderRadius: '12px', marginRight: '32px', objectFit: 'cover' }} />
-      <div style={{ flex: 1 }}>
-        <h4 style={{ fontSize: '1.5rem', marginBottom: '12px' }}>
-          [Final Year Project] <br /> Traditional Malay Women Fashion Product Recommendation System Using CNN Deep Learning
-        </h4>
-        <p style={{ fontStyle: 'italic', marginBottom: '18px' }}>Description Project 1</p>
-        <div className="buttons">
-          <a href="#" className="project-btn">Live Demo</a>
-          <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn">Github Repo</a>
+      <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+        <img src="project1.jpeg" alt="Project X" style={{ width: '320px', height: '180px', borderRadius: '12px', marginRight: '32px', objectFit: 'cover' }} />
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <h4 style={{ fontSize: '1.5rem', marginBottom: '12px', marginTop: '0' }}>
+            [Final Year Project] <br /> Traditional Malay Women Fashion Product Recommendation System Using CNN Deep Learning
+          </h4>
+          <p style={{ fontStyle: 'italic', marginBottom: '18px' }}>Description Project 1</p>
+          <div className="buttons">
+            <a href="#" className="project-btn">Live Demo</a>
+            <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn">Github Repo</a>
+          </div>
         </div>
       </div>
     </div>
 
     <div className="project-card" style={{ width: '900px', height: '260px', display: 'flex', alignItems: 'center', padding: '32px', margin: '0 auto' }}>
-      <img src="project2.jpeg" alt="Project Y" style={{ width: '320px', height: '180px', borderRadius: '12px', marginRight: '32px', objectFit: 'cover' }} />
-      <div style={{ flex: 1 }}>
-        <h3 style={{ fontSize: '1.5rem', marginBottom: '12px' }}>One Time Pad Cipher System</h3>
-        <p style={{ fontStyle: 'italic', marginBottom: '18px' }}>Description Project 2</p>
-        <div className="buttons">
-          <a href="#" className="project-btn">Live Demo</a>
-          <a href="https://github.com/SofeaHani/One-Time-Pad-Cipher-System" className="project-btn">Github Repo</a>
+      <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+        <img src="project2.jpeg" alt="Project Y" style={{ width: '320px', height: '180px', borderRadius: '12px', marginRight: '32px', objectFit: 'cover' }} />
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <h3 style={{ fontSize: '1.5rem', marginBottom: '12px', marginTop: '0' }}>One Time Pad Cipher System</h3>
+          <p style={{ fontStyle: 'italic', marginBottom: '18px' }}>Description Project 2</p>
+          <div className="buttons">
+            <a href="#" className="project-btn">Live Demo</a>
+            <a href="https://github.com/SofeaHani/One-Time-Pad-Cipher-System" className="project-btn">Github Repo</a>
+          </div>
         </div>
       </div>
     </div>
 
     <div className="project-card" style={{ width: '900px', height: '260px', display: 'flex', alignItems: 'center', padding: '32px', margin: '0 auto' }}>
-      <img src="project3.jpeg" alt="Project Z" style={{ width: '320px', height: '180px', borderRadius: '12px', marginRight: '32px', objectFit: 'cover' }} />
-      <div style={{ flex: 1 }}>
-        <h3 style={{ fontSize: '1.5rem', marginBottom: '12px' }}>Software Engineer Salary Prediction System</h3>
-        <p style={{ fontStyle: 'italic', marginBottom: '18px' }}>Description Project 3</p>
-        <div className="buttons">
-          <a href="#" className="project-btn">Live Demo</a>
-          <a href="#" className="project-btn">Github Repo</a>
+      <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+        <img src="project3.jpeg" alt="Project Z" style={{ width: '320px', height: '180px', borderRadius: '12px', marginRight: '32px', objectFit: 'cover' }} />
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+          <h3 style={{ fontSize: '1.5rem', marginBottom: '12px', marginTop: '0' }}>Software Engineer Salary Prediction System</h3>
+          <p style={{ fontStyle: 'italic', marginBottom: '18px' }}>Description Project 3</p>
+          <div className="buttons">
+            <a href="#" className="project-btn">Live Demo</a>
+            <a href="#" className="project-btn">Github Repo</a>
+          </div>
         </div>
       </div>
     </div>
