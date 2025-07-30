@@ -128,7 +128,7 @@ function App() {
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '18px 0 12px 0' , textAlign: 'left' }}>Traditional Malay Women Fashion Product Recommendation System</h3>
         <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#e72058ff', textAlign: 'left' }}>
-          Developed a web based traditional malay women fashion product recommendation system aim to provide better recommendation fashion product using image based approach using Python,CNN,Keras,Tensorflow,Scikit-learn for Malay Women.
+          Developed a web based traditional malay women fashion product recommendation system aim to provide better recommendation for malay women  fashion product consist of baju kurung,baju kebaya and tudung using image based approach for Malay Women.
         </p>
         <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
           {['Python','CNN', 'Keras','Tensorflow','Scikit-learn'].map(tag => (
@@ -137,8 +137,7 @@ function App() {
         </div>
         <div style={{ display: 'flex', gap: '12px' }}>
           <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} />
-            <span role="img" aria-label="code">💻</span> Code
+          <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> Code
           </a>
           <a href="#" className="project-btn" style={{ background: '#1abc9c', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
             <span role="img" aria-label="demo">🔗</span> Demo
