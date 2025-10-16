@@ -70,42 +70,90 @@ function App() {
             flexWrap: 'wrap'
           }}
         >
-          {/* Technical Skills - Top */}
-          <div style={{ width: '100%', maxWidth: '600px', marginBottom: '32px' }}>
-            <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Technical Skills</h2>
-            <div
-              className="grid"
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(4, 1fr)',
-                gap: '24px'
-              }}
-            >
-              {[
-                { img: 'html.png', title: 'HTML' },
-                { img: 'css.png', title: 'CSS' },
-                { img: 'javascript.png', title: 'JavaScript' },
-                { img: 'php.png', title: 'Php' },
-                { img: 'bootstrap.png', title: 'Bootstrap' },
-                { img: 'git.png', title: 'Git & GitHub' },
-                { img: 'phpmyadmin.png', title: 'PhpMyAdmin' },
-                { img: 'python.png', title: 'Python' },
-                { img: 'tensorflow.png', title: 'Tensorflow' },
-                { img: 'keras.png', title: 'Keras' },
-                { img: 'scikit-learn.png', title: 'Scikit Learn' },
-                { img: 'MySQL.png', title: 'MySQL' },
-                { img: 'jupyter.png', title: 'Jupyter Notebook' },
-                { img: 'tableau.png', title: 'Tableau' },
-                { img: 'MySQL.png', title: 'MySQL' },
-              ].map((skill, index) => (
-                <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
-                  <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
-                  <span style={{ fontSize: '1.1rem' }}>{skill.title}</span>
-                  <p style={{ fontSize: '0.9rem' }}>{skill.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          {/* Technical Skills - Categorized Card Layout */}
+<div
+  style={{
+    display: 'grid',
+    gridTemplateColumns: '1fr',
+    gap: '32px',
+    width: '100%',
+    maxWidth: '600px',
+    margin: '0 auto 32px auto'
+  }}
+>
+  {/* Software Development Card */}
+  <div style={{
+    background: '#181c2f',
+    borderRadius: '18px',
+    padding: '32px 24px',
+    color: '#fff',
+    boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
+  }}>
+    <div style={{ fontSize: '2rem', marginBottom: '12px' }}>💻</div>
+    <h3 style={{ marginBottom: '18px', fontWeight: 700, fontSize: '1.2rem' }}>Software Development</h3>
+    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+      {[
+        'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'PhpMyAdmin', 'Git & GitHub', 'React'
+      ].map(skill => (
+        <span key={skill} style={{
+          background: '#23284a',
+          color: '#fff',
+          borderRadius: '8px',
+          padding: '6px 14px',
+          fontSize: '0.95rem'
+        }}>{skill}</span>
+      ))}
+    </div>
+  </div>
+  {/* Machine Learning Card */}
+  <div style={{
+    background: '#181c2f',
+    borderRadius: '18px',
+    padding: '32px 24px',
+    color: '#fff',
+    boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
+  }}>
+    <div style={{ fontSize: '2rem', marginBottom: '12px' }}>🤖</div>
+    <h3 style={{ marginBottom: '18px', fontWeight: 700, fontSize: '1.2rem' }}>Machine Learning</h3>
+    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+      {[
+        'Python', 'Tensorflow', 'Keras', 'Scikit Learn', 'Jupyter Notebook'
+      ].map(skill => (
+        <span key={skill} style={{
+          background: '#23284a',
+          color: '#fff',
+          borderRadius: '8px',
+          padding: '6px 14px',
+          fontSize: '0.95rem'
+        }}>{skill}</span>
+      ))}
+    </div>
+  </div>
+  {/* Data Analytics Card */}
+  <div style={{
+    background: '#181c2f',
+    borderRadius: '18px',
+    padding: '32px 24px',
+    color: '#fff',
+    boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
+  }}>
+    <div style={{ fontSize: '2rem', marginBottom: '12px' }}>📊</div>
+    <h3 style={{ marginBottom: '18px', fontWeight: 700, fontSize: '1.2rem' }}>Data Analytics</h3>
+    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+      {[
+        'MySQL', 'Tableau'
+      ].map(skill => (
+        <span key={skill} style={{
+          background: '#23284a',
+          color: '#fff',
+          borderRadius: '8px',
+          padding: '6px 14px',
+          fontSize: '0.95rem'
+        }}>{skill}</span>
+      ))}
+    </div>
+  </div>
+</div>
           {/* Soft Skills - Bottom */}
           <div style={{ width: '100%', maxWidth: '600px' }}>
             <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
