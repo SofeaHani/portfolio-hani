@@ -45,9 +45,10 @@ function App() {
         <div className="about-container">
           <img src="profilehani.jpeg" alt="Sofea Hani" width="100%" loading="lazy" />
           <div className="text">
-            <h1 style={{ marginTop: '30px' }}>Hello, My Name is</h1>
+            <h1 style={{ marginTop: '30px' }}>Hello Everyone,Nice to Meet You!</h1>
+            <h1 style={{ marginTop: '30px' }}>My Name is</h1>
             <h1 style={{ marginTop: '15px', color: 'rgb(216, 12, 87)' }}>Sofea Hani Binti Sharifudin</h1>
-            <h2 style={{ marginTop: '15px' }}>I'm a computer science graduate specialized <br /> on software development and machine learning </h2>
+            <h2 style={{ marginTop: '15px' }}>I'm a computer science graduate specialized <br /> on software development,machine learning and data analytic </h2>
             <div className="buttons" style={{ marginTop: '30px' }}>
               <a href="RESUME SOFEA HANI BINTI SHARIFUDIN.pdf" download className="cv-btn">Download Resume</a>
               <a href="#contact" className="cv-btn">Contact</a>
