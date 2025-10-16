@@ -63,15 +63,16 @@ function App() {
     className="skills-info"
     style={{
       display: 'flex',
+      flexDirection: 'column', // Change from 'row' to 'column'
       justifyContent: 'center',
-      alignItems: 'flex-start',
+      alignItems: 'center', // Center horizontally
       gap: '40px',
       flexWrap: 'wrap'
     }}
   >
-    {/* Technical Skills - Left */}
-    <div style={{ flex: 1, minWidth: '150px', marginBottom: '32px' }}>
-      <h2 style={{ marginBottom: '32px', color: '#d80c57' }}>Technical Skills</h2>
+    {/* Technical Skills - Top */}
+    <div style={{ width: '100%', maxWidth: '600px', marginBottom: '32px' }}>
+      <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Technical Skills</h2>
       <div className="grid">
         {[
           { img: 'html.png', title: 'HTML' },
@@ -95,9 +96,9 @@ function App() {
         ))}
       </div>
     </div>
-    {/* Soft Skills - Right */}
-    <div style={{ flex: 1, minWidth: '250px' }}>
-      <h2 style={{ marginBottom: '32px', color: '#d80c57' }}>Soft Skills</h2>
+    {/* Soft Skills - Bottom */}
+    <div style={{ width: '100%', maxWidth: '600px' }}>
+      <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
       <div className="grid">
         {[
           { img: 'teamwork.png',title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
@@ -232,4 +233,3 @@ function App() {
 
 export default App;
 
-               
