@@ -131,7 +131,7 @@ function App() {
   </div>
   {/* Data Analytics Card */}
   <div style={{
-    background: '#d80c57',
+    background: '#181c2f',
     borderRadius: '18px',
     padding: '32px 24px',
     color: '#fff',
@@ -144,7 +144,7 @@ function App() {
         'MySQL', 'Tableau'
       ].map(skill => (
         <span key={skill} style={{
-          background: '#d80c57',
+          background: '#23284a',
           color: '#fff',
           borderRadius: '8px',
           padding: '6px 14px',
