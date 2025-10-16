@@ -70,9 +70,9 @@ function App() {
             flexWrap: 'wrap'
           }}
         >
-          {/* Software Development */}
+          {/* Technical Skills - Top */}
           <div style={{ width: '100%', maxWidth: '600px', marginBottom: '32px' }}>
-            <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Software Development</h2>
+            <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Technical Skills</h2>
             <div
               className="grid"
               style={{
@@ -85,47 +85,28 @@ function App() {
                 { img: 'html.png', title: 'HTML' },
                 { img: 'css.png', title: 'CSS' },
                 { img: 'javascript.png', title: 'JavaScript' },
-                { img: 'bootstrap.png', title: 'Bootstrap' },
-                { img: 'react.png', title: 'React' },
                 { img: 'php.png', title: 'Php' },
-                { img: 'phpmyadmin.png', title: 'PhpMyAdmin' },
+                { img: 'bootstrap.png', title: 'Bootstrap' },
                 { img: 'git.png', title: 'Git & GitHub' },
-              ].map((skill, index) => (
-                <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
-                  <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
-                  <span style={{ fontSize: '1.1rem' }}>{skill.title}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-          {/* Machine Learning */}
-          <div style={{ width: '100%', maxWidth: '600px', marginBottom: '32px' }}>
-            <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Machine Learning</h2>
-            <div
-              className="grid"
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(4, 1fr)',
-                gap: '24px'
-              }}
-            >
-              {[
+                { img: 'phpmyadmin.png', title: 'PhpMyAdmin' },
                 { img: 'python.png', title: 'Python' },
                 { img: 'tensorflow.png', title: 'Tensorflow' },
                 { img: 'keras.png', title: 'Keras' },
                 { img: 'scikit-learn.png', title: 'Scikit Learn' },
+                { img: 'MySQL.png', title: 'MySQL' },
                 { img: 'jupyter.png', title: 'Jupyter Notebook' },
               ].map((skill, index) => (
                 <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
                   <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
                   <span style={{ fontSize: '1.1rem' }}>{skill.title}</span>
+                  <p style={{ fontSize: '0.9rem' }}>{skill.desc}</p>
                 </div>
               ))}
             </div>
           </div>
-          {/* Data Analytics */}
+          {/* Soft Skills - Bottom */}
           <div style={{ width: '100%', maxWidth: '600px' }}>
-            <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Data Analytics</h2>
+            <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
             <div
               className="grid"
               style={{
@@ -135,12 +116,17 @@ function App() {
               }}
             >
               {[
-                { img: 'MySQL.png', title: 'MySQL' },
-                { img: 'tableauu.png', title: 'Tableau' },
+                { img: 'teamwork.png',title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
+                { img: 'communication.png',title: 'Communication', desc: 'Strong written and verbal communication skills.' },
+                { img: 'problemsolving.png',title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
+                { img: 'adaptation.png',title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
+                { img: 'time.png',title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' },
+                { img: 'emotional.png',title: 'Emotional Intelligence', desc: 'Ability to understand and manage emotions effectively.' },
               ].map((skill, index) => (
                 <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
                   <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
-                  <span style={{ fontSize: '1.1rem' }}>{skill.title}</span>
+                  <span>{skill.title}</span>
+                  <p>{skill.desc}</p>
                 </div>
               ))}
             </div>
