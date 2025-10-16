@@ -95,6 +95,7 @@ function App() {
                 { img: 'scikit-learn.png', title: 'Scikit Learn' },
                 { img: 'MySQL.png', title: 'MySQL' },
                 { img: 'tableauu.png', title: 'Tableau' },
+                { img: 'jupyter.png', title: 'Jupyter Notebook' },
               ].map((skill, index) => (
                 <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
                   <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
