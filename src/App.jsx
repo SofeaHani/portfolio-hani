@@ -169,7 +169,7 @@ function App() {
     {/* Project Card 3 */}
     <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
       <div >
-        <img src="project3.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
+        <img src="Dashboard.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
       </div>
       <div style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}> Unifi Home Dashboard for Re-targeting Visitors</h3>
@@ -182,7 +182,7 @@ function App() {
           ))}
         </div>
         <div style={{ display: 'flex', gap: '12px' }}>
-          <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+          <a href="https://public.tableau.com/app/profile/sofea.hani/viz/RETARGETINGHOMEVISITORDASHBOARD/RETARGETINGHOMEVISITORDASHBOARD_4" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
           <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> Code
           </a>
         </div>
