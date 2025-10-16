@@ -56,141 +56,155 @@ function App() {
         </div>
       </section>
 
-{/* Skills Section */}
-<section className="skills" id="skills">
-  <h2 className="section-title" style={{ marginTop: '-30px' }}>Skills</h2>
-  <div
-    className="skills-info"
-    style={{
-      display: 'flex',
-      flexDirection: 'column', // Change from 'row' to 'column'
-      justifyContent: 'center',
-      alignItems: 'center', // Center horizontally
-      gap: '40px',
-      flexWrap: 'wrap'
-    }}
-  >
-    {/* Technical Skills - Top */}
-    <div style={{ width: '100%', maxWidth: '600px', marginBottom: '32px' }}>
-      <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Technical Skills</h2>
-      <div className="grid">
-        {[
-          { img: 'html.png', title: 'HTML' },
-          { img: 'css.png', title: 'CSS' },
-          { img: 'javascript.png', title: 'JavaScript' },
-          { img: 'bootstrap.png', title: 'Bootstrap' },
-          { img: 'react.png', title: 'React' },
-          { img: 'git.png', title: 'Git & GitHub' },
-          { img: 'php.png', title: 'Php' },
-          { img: 'phpmyadmin.png', title: 'PhpMyAdmin' },
-          { img: 'python.png', title: 'Python' },
-          { img: 'tensorflow.png', title: 'Tensorflow' },
-          { img: 'keras.png', title: 'Keras' },
-          { img: 'scikit-learn.png', title: 'Scikit Learn' },
-        ].map((skill, index) => (
-          <div className="grid-card" key={index}>
-            <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
-            <span style={{ fontSize: '1.1rem' }}>{skill.title}</span>
-            <p style={{ fontSize: '0.9rem' }}>{skill.desc}</p>
+      {/* Skills Section */}
+      <section className="skills" id="skills">
+        <h2 className="section-title" style={{ marginTop: '-30px' }}>Skills</h2>
+        <div
+          className="skills-info"
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: '40px',
+            flexWrap: 'wrap'
+          }}
+        >
+          {/* Technical Skills - Top */}
+          <div style={{ width: '100%', maxWidth: '600px', marginBottom: '32px' }}>
+            <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Technical Skills</h2>
+            <div
+              className="grid"
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(4, 1fr)',
+                gap: '24px'
+              }}
+            >
+              {[
+                { img: 'html.png', title: 'HTML' },
+                { img: 'css.png', title: 'CSS' },
+                { img: 'javascript.png', title: 'JavaScript' },
+                { img: 'bootstrap.png', title: 'Bootstrap' },
+                { img: 'react.png', title: 'React' },
+                { img: 'git.png', title: 'Git & GitHub' },
+                { img: 'php.png', title: 'Php' },
+                { img: 'phpmyadmin.png', title: 'PhpMyAdmin' },
+                { img: 'python.png', title: 'Python' },
+                { img: 'tensorflow.png', title: 'Tensorflow' },
+                { img: 'keras.png', title: 'Keras' },
+                { img: 'scikit-learn.png', title: 'Scikit Learn' },
+              ].map((skill, index) => (
+                <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
+                  <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
+                  <span style={{ fontSize: '1.1rem' }}>{skill.title}</span>
+                  <p style={{ fontSize: '0.9rem' }}>{skill.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        ))}
-      </div>
-    </div>
-    {/* Soft Skills - Bottom */}
-    <div style={{ width: '100%', maxWidth: '600px' }}>
-      <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
-      <div className="grid">
-        {[
-          { img: 'teamwork.png',title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
-          { img: 'communication.png',title: 'Communication', desc: 'Strong written and verbal communication skills.' },
-          { img: 'problemsolving.png',title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
-          { img: 'adaptation.png',title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
-          { img: 'time.png',title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' },
-          { img: 'emotional.png',title: 'Emotional Intelligence', desc: 'Ability to understand and manage emotions effectively.' },
-        ].map((skill, index) => (
-          <div className="grid-card" key={index}>
-            <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
-            <span>{skill.title}</span>
-            <p>{skill.desc}</p>
+          {/* Soft Skills - Bottom */}
+          <div style={{ width: '100%', maxWidth: '600px' }}>
+            <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
+            <div
+              className="grid"
+              style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(4, 1fr)',
+                gap: '24px'
+              }}
+            >
+              {[
+                { img: 'teamwork.png',title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
+                { img: 'communication.png',title: 'Communication', desc: 'Strong written and verbal communication skills.' },
+                { img: 'problemsolving.png',title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
+                { img: 'adaptation.png',title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
+                { img: 'time.png',title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' },
+                { img: 'emotional.png',title: 'Emotional Intelligence', desc: 'Ability to understand and manage emotions effectively.' },
+              ].map((skill, index) => (
+                <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
+                  <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
+                  <span>{skill.title}</span>
+                  <p>{skill.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        ))}
-      </div>
-    </div>
-     </div>
-   </section>
+        </div>
+      </section>
 
-     {/* Projects Section */}
-   <section className="projects" id="projects">
-   <h2 className="section-title">Projects</h2>
-   <div className="project-container" style={{ display: 'flex', gap: '32px', justifyContent: 'center', flexWrap: 'wrap' }}>
-    {/* Project Card 1 */}
-    <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
-      <div >
-        <img src="project1.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block',margin: '0 auto' }} />
-      </div>
-      <div style={{ padding: '24px' }}>
-        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Traditional Malay Women Fashion Product Recommendation System</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'justify',wordSpacing: '1.5px' }}>
-          Innovated a web based traditional malay women fashion product recommendation system aim to provide better recommendation for malay women  fashion product consist of baju kurung,baju kebaya and tudung using image based approach for Malay Women.
-        </p>
-        <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {['Python','CNN','Jupyter Notebook', 'Keras','Tensorflow','Scikit-learn'].map(tag => (
-            <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
-          ))}
+      {/* Projects Section */}
+      <section className="projects" id="projects">
+      <h2 className="section-title">Projects</h2>
+      <div className="project-container" style={{ display: 'flex', gap: '32px', justifyContent: 'center', flexWrap: 'wrap' }}>
+        {/* Project Card 1 */}
+        <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
+          <div >
+            <img src="project1.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block',margin: '0 auto' }} />
+          </div>
+          <div style={{ padding: '24px' }}>
+            <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Traditional Malay Women Fashion Product Recommendation System</h3>
+            <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'justify',wordSpacing: '1.5px' }}>
+              Innovated a web based traditional malay women fashion product recommendation system aim to provide better recommendation for malay women  fashion product consist of baju kurung,baju kebaya and tudung using image based approach for Malay Women.
+            </p>
+            <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+              {['Python','CNN','Jupyter Notebook', 'Keras','Tensorflow','Scikit-learn'].map(tag => (
+                <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
+              ))}
+            </div>
+            <div style={{ display: 'flex', gap: '12px' }}>
+              <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> View Project
+              </a>
+            </div>
+          </div>
         </div>
-        <div style={{ display: 'flex', gap: '12px' }}>
-          <a href="https://github.com/SofeaHani/Recommendation-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> View Project
-          </a>
+        {/* Project Card 2 */}
+        <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
+          <div >
+            <img src="Customercomplaintsystem.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
+          </div>
+          <div style={{ padding: '24px' }}>
+            <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Customer Complaint System</h3>
+            <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'justify' }}>
+              Developed a web based customer complaint system that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system.
+            </p>
+            <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+              {['Html','Css','Javascript','Bootstrap','jQuery','Php','PhpMyAdmin'].map(tag => (
+                <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
+              ))}
+            </div>
+            <div style={{ display: 'flex', gap: '12px' }}>
+              <a href="https://github.com/SofeaHani/Customer-Complaint-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> View Project
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* Project Card 3 */}
+        <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
+          <div >
+            <img src="Dashboard.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
+          </div>
+          <div style={{ padding: '24px' }}>
+            <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}> Unifi Home Dashboard for Re-targeting Visitors</h3>
+            <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'justify' }}>
+              Designed 6 user-friendly visitor dashboards using Tableau and MySQL to monitor user behavior on a daily, weekly, and monthly basis for improving performance monitoring and decision-making.
+            </p>
+            <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+              {['Tableau','MySQL'].map(tag => (
+                <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
+              ))}
+            </div>
+            <div style={{ display: 'flex', gap: '12px' }}>
+              <a href="https://public.tableau.com/app/profile/sofea.hani/viz/RETARGETINGHOMEVISITORDASHBOARD/RETARGETINGHOMEVISITORDASHBOARD_4" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <img src="tableau.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> View Dashboard
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    {/* Project Card 2 */}
-    <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
-      <div >
-        <img src="Customercomplaintsystem.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
-      </div>
-      <div style={{ padding: '24px' }}>
-        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}>Customer Complaint System</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'justify' }}>
-          Developed a web based customer complaint system that can help customers easily submit their complaints regarding products or services where customers can raise issues, track the progress of their complaints, and receive timely updates from the system.
-        </p>
-        <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {['Html','Css','Javascript','Bootstrap','jQuery','Php','PhpMyAdmin'].map(tag => (
-            <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
-          ))}
-        </div>
-        <div style={{ display: 'flex', gap: '12px' }}>
-          <a href="https://github.com/SofeaHani/Customer-Complaint-System" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> View Project
-          </a>
-        </div>
-      </div>
-    </div>
-    {/* Project Card 3 */}
-    <div className="project-card modern-card" style={{ width: '400px', background: '#ffffffff', color: '#e72058ff', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 4px 24px rgba(0,0,0,0.12)' }}>
-      <div >
-        <img src="Dashboard.jpeg" alt="Project X" style={{ width: '100%', height: '160px', objectFit: 'cover', display: 'block' }} />
-      </div>
-      <div style={{ padding: '24px' }}>
-        <h3 style={{ fontSize: '1.35rem', fontWeight: 700, margin: '8px 0 12px 0' , textAlign: 'left' }}> Unifi Home Dashboard for Re-targeting Visitors</h3>
-        <p style={{ fontSize: '1rem', marginBottom: '18px', color: '#d7085bff', textAlign: 'justify' }}>
-          Designed 6 user-friendly visitor dashboards using Tableau and MySQL to monitor user behavior on a daily, weekly, and monthly basis for improving performance monitoring and decision-making.
-        </p>
-        <div style={{ marginBottom: '18px', display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-          {['Tableau','MySQL'].map(tag => (
-            <span key={tag} style={{ background: '#6d1936ff', color: '#fff', borderRadius: '8px', padding: '4px 10px', fontSize: '0.85rem' }}>{tag}</span>
-          ))}
-        </div>
-        <div style={{ display: 'flex', gap: '12px' }}>
-          <a href="https://public.tableau.com/app/profile/sofea.hani/viz/RETARGETINGHOMEVISITORDASHBOARD/RETARGETINGHOMEVISITORDASHBOARD_4" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <img src="tableau.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> View Dashboard
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
       {/* Certificate Section */}
       <section className="certs" id="certs">
