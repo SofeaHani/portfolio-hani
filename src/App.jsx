@@ -85,15 +85,16 @@ function App() {
                 { img: 'html.png', title: 'HTML' },
                 { img: 'css.png', title: 'CSS' },
                 { img: 'javascript.png', title: 'JavaScript' },
-                { img: 'bootstrap.png', title: 'Bootstrap' },
-                { img: 'react.png', title: 'React' },
-                { img: 'git.png', title: 'Git & GitHub' },
                 { img: 'php.png', title: 'Php' },
+                { img: 'bootstrap.png', title: 'Bootstrap' },
+                { img: 'git.png', title: 'Git & GitHub' },
                 { img: 'phpmyadmin.png', title: 'PhpMyAdmin' },
                 { img: 'python.png', title: 'Python' },
                 { img: 'tensorflow.png', title: 'Tensorflow' },
                 { img: 'keras.png', title: 'Keras' },
                 { img: 'scikit-learn.png', title: 'Scikit Learn' },
+                { img: 'MySQL.png', title: 'MySQL' },
+                { img: 'tableauu.png', title: 'Tableau' },
               ].map((skill, index) => (
                 <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
                   <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
