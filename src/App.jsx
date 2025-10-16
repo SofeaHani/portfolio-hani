@@ -183,7 +183,7 @@ function App() {
         </div>
         <div style={{ display: 'flex', gap: '12px' }}>
           <a href="https://public.tableau.com/app/profile/sofea.hani/viz/RETARGETINGHOMEVISITORDASHBOARD/RETARGETINGHOMEVISITORDASHBOARD_4" className="project-btn" style={{ background: '#c7015dff', color: '#fff', border: 'none', borderRadius: '8px', padding: '10px 24px', fontWeight: 600, display: 'flex', alignItems: 'center', gap: '6px' }}>
-          <img src="github.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> View Dashboard
+          <img src="tableau.png" alt="GitHub" style={{ width: '20px', height: '20px', marginRight: '6px' }} /> View Dashboard
           </a>
         </div>
       </div>
