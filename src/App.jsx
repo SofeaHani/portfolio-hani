@@ -275,14 +275,36 @@ function App() {
 
       {/* Contact Section */}
       <section className="contact" id="contact">
-        <h2 className="section-title" style={{ marginBottom: '20px', marginTop: '30px' }}>Contact Me</h2>
-        <form className="contact-form">
-          <div className="input-container">
-            <span className="email-icon">✉</span>
-            <input type="email" placeholder="example@email.com" required />
+        <div className="contact-hero">
+          <h2>Let's Connect</h2>
+          <p className="contact-sub">
+            I'm always interested in discussing new opportunities, data science projects, or just having a chat about technology.
+          </p>
+        </div>
+
+        <div className="contact-cards">
+          <div className="contact-card">
+            <div className="contact-icon">✉</div>
+            <h3>Email</h3>
+            <p className="muted">lokman.hakim0385@gmail.com</p>
           </div>
-          <button type="submit" className="submit-btn">Submit</button>
-        </form>
+
+          <div className="contact-card">
+            <div className="contact-icon location">📍</div>
+            <h3>Location</h3>
+            <p className="muted">Kuala Lumpur, Malaysia</p>
+          </div>
+        </div>
+
+        <div className="contact-cta">
+          <h3>Ready to Get Started?</h3>
+          <p className="cta-sub">
+            Whether you're looking for a fresh perspective on data analytics or want to discuss potential opportunities, I'd love to hear from you.
+          </p>
+          <a className="contact-btn" href="mailto:lokman.hakim0385@gmail.com">
+            ✉ Get In Touch
+          </a>
+        </div>
       </section>
     </>
   );
