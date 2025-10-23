@@ -99,10 +99,10 @@ function App() {
     <div
       key={i}
       style={{
-        background: '#0f1724',
+        background: '#fcfcfcff',
         borderRadius: '12px',
         padding: '28px',
-        color: '#fff',
+        color: '#151111ff',
         boxShadow: '0 8px 30px rgba(2,6,23,0.35)',
         minHeight: '150px',
         display: 'flex',
