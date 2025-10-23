@@ -278,7 +278,7 @@ function App() {
         <div className="contact-hero">
           <h2>Let's Connect</h2>
           <p className="contact-sub">
-            I'm always interested in discussing new opportunities, data science projects, or just having a chat about technology.
+            I'm always interested in discussing new opportunities about technology.
           </p>
         </div>
 
@@ -286,22 +286,22 @@ function App() {
           <div className="contact-card">
             <div className="contact-icon">✉</div>
             <h3>Email</h3>
-            <p className="muted">lokman.hakim0385@gmail.com</p>
+            <p className="muted">sofeahani02@gmail.com</p>
           </div>
 
           <div className="contact-card">
             <div className="contact-icon location">📍</div>
             <h3>Location</h3>
-            <p className="muted">Kuala Lumpur, Malaysia</p>
+            <p className="muted">Shah Alam, Malaysia</p>
           </div>
         </div>
 
         <div className="contact-cta">
           <h3>Ready to Get Started?</h3>
           <p className="cta-sub">
-            Whether you're looking for a fresh perspective on data analytics or want to discuss potential opportunities, I'd love to hear from you.
+            Whether you're want to discuss potential opportunities, I'd love to hear from you.
           </p>
-          <a className="contact-btn" href="mailto:lokman.hakim0385@gmail.com">
+          <a className="contact-btn" href="mailto:sofeahani02@gmail.com">
             ✉ Get In Touch
           </a>
         </div>
