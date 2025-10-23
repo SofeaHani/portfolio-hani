@@ -276,7 +276,7 @@ function App() {
       {/* Contact Section */}
       <section className="contact" id="contact">
         <div className="contact-hero">
-          <h2>Let's Connect</h2>
+          <h3>Let's Connect</h3>
         </div>
 
         <div className="contact-cards">
