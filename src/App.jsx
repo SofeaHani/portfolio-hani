@@ -280,16 +280,16 @@ function App() {
         </div>
 
         <div className="contact-cards">
-          <div className="contact-card">
-            <img src="email.png" alt="Email icon" style={{ width: 40, height: 40, objectFit: 'contain', marginBottom: 12 }} />
-            <h3>Email</h3>
-            <p className="muted">sofeahani02@gmail.com</p>
+          <div className="contact-card contact-card--soft">
+            <img src="email.png" alt="Email icon" className="contact-card__icon" />
+            <h3 className="contact-card__title">Email</h3>
+            <p className="contact-card__desc">sofeahani02@gmail.com</p>
           </div>
 
-          <div className="contact-card">
-            <img src="location.png" alt="Location icon" style={{ width: 40, height: 40, objectFit: 'contain', marginBottom: 12 }} />
-            <h3>Location</h3>
-            <p className="muted">Shah Alam, Malaysia</p>
+          <div className="contact-card contact-card--soft">
+            <img src="location.png" alt="Location icon" className="contact-card__icon" />
+            <h3 className="contact-card__title">Location</h3>
+            <p className="contact-card__desc">Shah Alam, Malaysia</p>
           </div>
         </div>
 
