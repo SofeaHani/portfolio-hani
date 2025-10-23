@@ -114,7 +114,7 @@ function App() {
             <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 700, lineHeight: 1.15 }}>{cat.title}</h3>
           </div>
 
-          <div style={{ marginTop: '8px', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+          <div style={{ marginTop: '10px', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
             {cat.chips.map(chip => (
               <span
                 key={chip}
