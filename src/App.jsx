@@ -92,7 +92,7 @@ function App() {
         },
         {
           title: 'Analytics & Data Visualization',
-          chips: ['Tableau','MySQL','Microsoft Excel', 'Looker Studio', 'Google Analytics']
+          chips: ['Tableau','MySQL','Microsoft Excel', 'Looker Studio', 'Microsoft Clarity','MoEngage']
         }
       ].map((cat, i) => (
         <div
