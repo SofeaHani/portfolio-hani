@@ -110,19 +110,7 @@ function App() {
         justifyContent: 'space-between'
       }}
     >
-      <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-        <div style={{
-          width: '48px',
-          height: '48px',
-          borderRadius: '12px',
-          background: '#1f2a44',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontSize: '20px'
-        }}>{cat.icon}</div>
-        <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 700 }}>{cat.title}</h3>
-      </div>
+      
 
       <div style={{ marginTop: '14px', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
         {cat.chips.map(chip => (
