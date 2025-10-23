@@ -447,7 +447,7 @@ header {
 
 /* Contact section design (dark gradient, cards, CTA) */
 .contact {
-  background: linear-gradient(180deg, rgb(33, 255, 212) 0%, rgb(233, 255, 212) 100%);
+  background: linear-gradient(180deg, rgb(216, 255, 180) 0%, rgb(216, 255, 180) 100%);
   color: #d7085bff;
   padding: 72px 20px;
 }
@@ -522,44 +522,87 @@ header {
 
 /* CTA block */
 .contact-cta {
-  max-width: 1200px;
-  margin: 16px auto;
-  background: #ffffff;                /* white card */
-  border: 2px solid #d80c57;         /* pink border to match cards */
-  border-radius: 10px;
-  padding: 16px 20px;                 /* tighter padding */
-  box-shadow: 0 8px 20px rgba(2,6,23,0.06);
+  max-width: 1100px;
+  margin: 36px auto 0;
+  background: rgb(255, 254, 254);
+  border-radius: 12px;      /* slightly smaller radius */
+  padding: 14px 16px; 
   text-align: center;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;                          /* space between title, text, button */
-  align-items: center;
+  box-shadow: 0 12px 40px rgba(2,6,23,0.5);
 }
 
 .contact-cta h3 {
-  margin: 0;
-  color: #d80c57;
-  font-size: 1.1rem;
-  font-weight: 700;
-  font-style: italic;
+  margin: 0 0 8px;
+  font-size: 1.4rem;
+  color: #d7085bff;
 }
 
 .contact-cta .cta-sub {
-  margin: 0;
-  color: #222;
-  font-weight: 600;
-  font-size: 0.95rem;
-  line-height: 1.35;
-  padding: 0 6px;                     /* small horizontal breathing room */
+  color: #d7085bff;
+  margin: 0 0 16px;
 }
 
-.contact-cta .contact-btn {
-  padding: 10px 18px;
-  border-radius: 24px;
-  font-weight: 700;
+/* CTA button */
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   text-decoration: none;
-  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 28px;
+  background: linear-gradient(90deg,#ff5f9c,#ec7ea5);
+  color: #ffffff;
+  font-weight: 700;
+  box-shadow: 0 6px 18px rgba(46,166,255,0.18);
+}
+
+/* Contact cards styled like soft-skills cards */
+.contact-cards {
+  max-width: 1000px;
+  margin: 18px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;                /* reduced gap */
+  padding: 0 12px;
+}
+
+.contact-card--soft {
+  background: #ffffff;
+  border: 2px solid #d80c57;
+  border-radius: 12px;      /* slightly smaller radius */
+  padding: 14px 16px;       /* reduced padding */
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(2,6,23,0.06); /* lighter shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 110px;        /* keep cards balanced */
+}
+
+.contact-card__icon {
+  width: 48px;              /* smaller icon */
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.contact-card__title {
+  margin: 0;
+  color: #d80c57;
+  font-size: 1.05rem;       /* slightly smaller title */
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1.05;
+  margin-bottom: 6px;
+}
+
+.contact-card__desc {
+  margin: 0;
+  color: #333;
+  opacity: 0.95;
+  font-weight: 600;
+  font-size: 0.95rem;
 }
 
 /* responsive small screens */
@@ -576,9 +619,6 @@ header {
     height: 40px;
     margin-bottom: 8px;
   }
-  .contact-cta { padding: 12px 14px; gap: 8px; }
-  .contact-cta h3 { font-size: 1rem; }
-  .contact-cta .cta-sub { font-size: 0.92rem; }
 }
 
 /* Mobile Devices (max-width: 768px) */
