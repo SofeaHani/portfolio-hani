@@ -74,82 +74,81 @@ function App() {
 <div
   style={{
     display: 'grid',
-    gridTemplateColumns: '1fr',
-    gap: '32px',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
+    gap: '28px',
     width: '100%',
-    maxWidth: '600px',
+    maxWidth: '1200px',
     margin: '0 auto 32px auto'
   }}
 >
-  {/* Software Development Card */}
-  <div style={{
-    background: '#181c2f',
-    borderRadius: '18px',
-    padding: '32px 24px',
-    color: '#fff',
-    boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
-  }}>
-    <h3 style={{ marginBottom: '18px', fontWeight: 700, fontSize: '1.2rem' }}>Software Development</h3>
-    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-      {[
-        'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'PhpMyAdmin', 'Git & GitHub', 'React'
-      ].map(skill => (
-        <span key={skill} style={{
-          background: '#ff6b1cff',
-          color: '#fff',
-          borderRadius: '8px',
-          padding: '6px 14px',
-          fontSize: '0.95rem'
-        }}>{skill}</span>
-      ))}
+  {{
+      icon: '⟨⟩',
+      title: 'Software Development',
+      chips: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'PhpMyAdmin', 'Git & GitHub', 'React']
+    },
+    {
+      icon: '🗄️',
+      title: 'Data Management & Databases',
+      chips: ['SQL', 'MySQL', 'PostgreSQL', 'MongoDB']
+    },
+    {
+      icon: '📈',
+      title: 'Analytics & BI Tools',
+      chips: ['Tableau', 'Microsoft Excel', 'Looker Studio', 'Google Analytics']
+    },
+    {
+      icon: '☁️',
+      title: 'Cloud & Dev Tools',
+      chips: ['AWS', 'Azure', 'GCP', 'Git & GitHub']
+    }
+  }.map((cat, i) => (
+    <div
+      key={i}
+      style={{
+        background: '#0f1724',
+        borderRadius: '12px',
+        padding: '28px',
+        color: '#fff',
+        boxShadow: '0 8px 30px rgba(2,6,23,0.35)',
+        minHeight: '150px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'space-between'
+      }}
+    >
+      <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+        <div style={{
+          width: '48px',
+          height: '48px',
+          borderRadius: '12px',
+          background: '#1f2a44',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          fontSize: '20px'
+        }}>{cat.icon}</div>
+        <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 700 }}>{cat.title}</h3>
+      </div>
+
+      <div style={{ marginTop: '14px', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+        {cat.chips.map(chip => (
+          <span
+            key={chip}
+            style={{
+              background: '#111827',
+              color: '#e6eef8',
+              borderRadius: '999px',
+              padding: '6px 12px',
+              fontSize: '0.85rem',
+              boxShadow: 'inset 0 -1px 0 rgba(255,255,255,0.03)'
+            }}
+          >
+            {chip}
+          </span>
+        ))}
+      </div>
     </div>
-  </div>
-  {/* Machine Learning Card */}
-  <div style={{
-    background: '#b0bdffff',
-    borderRadius: '18px',
-    padding: '32px 24px',
-    color: '#fff',
-    boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
-  }}>
-    <h3 style={{ marginBottom: '18px', fontWeight: 700, fontSize: '1.2rem' }}>Machine Learning</h3>
-    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-      {[
-        'Python', 'Tensorflow', 'Keras', 'Scikit Learn', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib','CNN'
-      ].map(skill => (
-        <span key={skill} style={{
-          background: '#23284a',
-          color: '#fff',
-          borderRadius: '8px',
-          padding: '6px 14px',
-          fontSize: '0.95rem'
-        }}>{skill}</span>
-      ))}
-    </div>
-  </div>
-  {/* Data Analytics Card */}
-  <div style={{
-    background: '#fff185ff',
-    borderRadius: '18px',
-    padding: '32px 24px',
-    color: '#fff',
-    boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
-  }}>
-    <h3 style={{ marginBottom: '18px', fontWeight: 700, fontSize: '1.2rem' }}>Data Analytics</h3>
-    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-      {[
-        'MySQL', 'Tableau', 'Microsoft Excel','Moengage Studio','Looker Studio'
-      ].map(skill => (
-        <span key={skill} style={{
-          background: '#23284a',
-          color: '#fff',
-          borderRadius: '8px',
-          padding: '6px 14px',
-          fontSize: '0.95rem'
-        }}>{skill}</span>
-      ))}
-    </div>
-  </div>
+  ))}
 </div>
           {/* Soft Skills - Bottom */}
           <div style={{ width: '100%', maxWidth: '600px' }}>
