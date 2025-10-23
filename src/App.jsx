@@ -58,7 +58,7 @@ function App() {
 
       {/* Skills Section */}
       <section className="skills" id="skills">
-        <h2 className="section-title" style={{ marginTop: '-30px' }}>Skills</h2>
+        <h2 className="section-title" style={{ marginTop: '-30px' }}>Technical Skills</h2>
         <div
           className="skills-info"
           style={{
@@ -89,14 +89,13 @@ function App() {
     color: '#fff',
     boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
   }}>
-    <div style={{ fontSize: '2rem', marginBottom: '12px' }}>💻</div>
     <h3 style={{ marginBottom: '18px', fontWeight: 700, fontSize: '1.2rem' }}>Software Development</h3>
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
       {[
         'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'PhpMyAdmin', 'Git & GitHub', 'React'
       ].map(skill => (
         <span key={skill} style={{
-          background: '#23284a',
+          background: '#ff6b1cff',
           color: '#fff',
           borderRadius: '8px',
           padding: '6px 14px',
@@ -107,17 +106,16 @@ function App() {
   </div>
   {/* Machine Learning Card */}
   <div style={{
-    background: '#181c2f',
+    background: '#b0bdffff',
     borderRadius: '18px',
     padding: '32px 24px',
     color: '#fff',
     boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
   }}>
-    <div style={{ fontSize: '2rem', marginBottom: '12px' }}>🤖</div>
     <h3 style={{ marginBottom: '18px', fontWeight: 700, fontSize: '1.2rem' }}>Machine Learning</h3>
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
       {[
-        'Python', 'Tensorflow', 'Keras', 'Scikit Learn', 'Jupyter Notebook'
+        'Python', 'Tensorflow', 'Keras', 'Scikit Learn', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib','CNN'
       ].map(skill => (
         <span key={skill} style={{
           background: '#23284a',
@@ -131,17 +129,16 @@ function App() {
   </div>
   {/* Data Analytics Card */}
   <div style={{
-    background: '#181c2f',
+    background: '#fff185ff',
     borderRadius: '18px',
     padding: '32px 24px',
     color: '#fff',
     boxShadow: '0 4px 24px rgba(0,0,0,0.10)'
   }}>
-    <div style={{ fontSize: '2rem', marginBottom: '12px' }}>📊</div>
     <h3 style={{ marginBottom: '18px', fontWeight: 700, fontSize: '1.2rem' }}>Data Analytics</h3>
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
       {[
-        'MySQL', 'Tableau'
+        'MySQL', 'Tableau', 'Microsoft Excel','Moengage Studio','Looker Studio'
       ].map(skill => (
         <span key={skill} style={{
           background: '#23284a',
