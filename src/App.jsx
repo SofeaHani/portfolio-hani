@@ -293,12 +293,15 @@ function App() {
           </div>
         </div>
 
-        <div className="contact-cta">
-          <h3>Ready to Get Started?</h3>
-          <p className="cta-sub">
-            Whether you're want to discuss potential opportunities, I'd love to hear from you.
-          </p>
-          <a className="contact-btn" href="mailto:sofeahani02@gmail.com">
+        <div className="contact-cta contact-cta--card">
+          <div className="contact-cta__content">
+            <h3>Ready to Get Started?</h3>
+            <p className="cta-sub">
+              Whether you're want to discuss potential opportunities, I'd love to hear from you.
+            </p>
+          </div>
+
+          <a className="contact-btn contact-btn--primary" href="mailto:sofeahani02@gmail.com">
             ✉ Get In Touch
           </a>
         </div>
