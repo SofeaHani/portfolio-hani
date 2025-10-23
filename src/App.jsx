@@ -56,113 +56,114 @@ function App() {
         </div>
       </section>
 
-      {/* Skills Section */}
-      <section className="skills" id="skills">
-        <h2 className="section-title" style={{ marginTop: '-30px' }}>Technical Skills</h2>
-        <div
-          className="skills-info"
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'center',
-            alignItems: 'center',
-            gap: '40px',
-            flexWrap: 'wrap'
-          }}
-        >
-          {/* Technical Skills - Categorized Card Layout */}
-<div
-  style={{
-    display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
-    gap: '28px',
-    width: '100%',
-    maxWidth: '1200px',
-    margin: '0 auto 32px auto'
-  }}
->
-  {[
-    {
-      title: 'Software Development',
-      chips: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'PhpMyAdmin', 'Git & GitHub', 'React']
-    },
-    {
-      title: 'Machine Learning & Data Science',
-      chips: [ 'Python', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib','Scikit-learn', 'TensorFlow', 'Keras', 'CNN']
-    },
-    {
-      title: 'Analytics & Data Visualization',
-      chips: ['Tableau', 'Microsoft Excel', 'Looker Studio', 'Google Analytics']
-    },
-    
-  ].map((cat, i) => (
+{/* Skills Section */}
+<section className="skills" id="skills">
+  <h2 className="section-title" style={{ marginTop: '-30px' }}>Technical Skills</h2>
+  <div
+    className="skills-info"
+    style={{
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      gap: '40px',
+      flexWrap: 'wrap'
+    }}
+  >
+    {/* Technical Skills - Categorized Card Layout */}
     <div
-      key={i}
       style={{
-        background: '#fcfcfcff',
-        borderRadius: '12px',
-        padding: '28px',
-        color: '#151111ff',
-        boxShadow: '0 8px 30px rgba(2,6,23,0.35)',
-        minHeight: '150px',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between'
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
+        gap: '28px',
+        width: '100%',
+        maxWidth: '1200px',
+        margin: '0 auto 32px auto'
       }}
     >
-      <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-        <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 700 }}>{cat.title}</h3>
-      </div>
+      {[
+        {
+          title: 'Software Development',
+          chips: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'PhpMyAdmin', 'Git & GitHub', 'React']
+        },
+        {
+          title: 'Machine Learning & Data Science',
+          chips: [ 'Python', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib','Scikit-learn', 'TensorFlow', 'Keras', 'CNN']
+        },
+        {
+          title: 'Analytics & Data Visualization',
+          chips: ['Tableau', 'Microsoft Excel', 'Looker Studio', 'Google Analytics']
+        },
+        
+      ].map((cat, i) => (
+        <div
+          key={i}
+          style={{
+            background: '#fcfcfcff',
+            borderRadius: '12px',
+            padding: '16px 28px',      // reduce top/bottom padding
+            color: '#151111ff',
+            boxShadow: '0 8px 30px rgba(2,6,23,0.35)',
+            minHeight: 'auto',         // allow card to size to content
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'flex-start' // stack content from top
+          }}
+        >
+          <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+            <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 700, lineHeight: 1.15 }}>{cat.title}</h3>
+          </div>
 
-      <div style={{ marginTop: '14px', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
-        {cat.chips.map(chip => (
-          <span
-            key={chip}
-            style={{
-              background: '#d80c57',
-              color: '#e6eef8',
-              borderRadius: '999px',
-              padding: '6px 12px',
-              fontSize: '0.85rem',
-              boxShadow: 'inset 0 -1px 0 rgba(255,255,255,0.03)'
-            }}
-          >
-            {chip}
-          </span>
-        ))}
-      </div>
-    </div>
-  ))} 
-</div>
-          {/* Soft Skills - Bottom */}
-          <div style={{ width: '100%', maxWidth: '600px' }}>
-            <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
-            <div
-              className="grid"
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(3, 1fr)',
-                gap: '24px'
-              }}
-            >
-              {[
-                { img: 'teamwork.png',title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
-                { img: 'communication.png',title: 'Communication', desc: 'Strong written and verbal communication skills.' },
-                { img: 'problemsolving.png',title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
-                { img: 'adaptation.png',title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
-                { img: 'time.png',title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' },
-                { img: 'emotional.png',title: 'Emotional Intelligence', desc: 'Ability to understand and manage emotions effectively.' },
-              ].map((skill, index) => (
-                <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
-                  <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
-                  <span>{skill.title}</span>
-                  <p>{skill.desc}</p>
-                </div>
-              ))}
-            </div>
+          <div style={{ marginTop: '8px', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+            {cat.chips.map(chip => (
+              <span
+                key={chip}
+                style={{
+                  background: '#d80c57',
+                  color: '#e6eef8',
+                  borderRadius: '999px',
+                  padding: '6px 12px',
+                  fontSize: '0.85rem',
+                  boxShadow: 'inset 0 -1px 0 rgba(255,255,255,0.03)'
+                }}
+              >
+                {chip}
+              </span>
+            ))}
           </div>
         </div>
-      </section>
+      ))} 
+
+      {/* Soft Skills - Bottom */}
+      <div style={{ width: '100%', maxWidth: '600px' }}>
+        <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
+        <div
+          className="grid"
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(3, 1fr)',
+            gap: '24px'
+          }}
+        >
+          {[
+            { img: 'teamwork.png',title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
+            { img: 'communication.png',title: 'Communication', desc: 'Strong written and verbal communication skills.' },
+            { img: 'problemsolving.png',title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
+            { img: 'adaptation.png',title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
+            { img: 'time.png',title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' },
+            { img: 'emotional.png',title: 'Emotional Intelligence', desc: 'Ability to understand and manage emotions effectively.' },
+          ].map((skill, index) => (
+            <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
+              <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
+              <span>{skill.title}</span>
+              <p>{skill.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Projects Section */}
       <section className="projects" id="projects">
