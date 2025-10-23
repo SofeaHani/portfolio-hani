@@ -287,7 +287,7 @@ function App() {
           </div>
 
           <div className="contact-card">
-            <div className="contact-icon location">📍</div>
+            <img src="location.png" alt="Location icon" style={{ width: 40, height: 40, objectFit: 'contain', marginBottom: 12 }} />
             <h3>Location</h3>
             <p className="muted">Shah Alam, Malaysia</p>
           </div>
