@@ -281,7 +281,7 @@ function App() {
 
         <div className="contact-cards">
           <div className="contact-card">
-            <div className="contact-icon">✉</div>
+            <img src="email.png" alt="Email icon" style={{ width: 68, height: 68, objectFit: 'contain', marginBottom: 12 }} />
             <h3>Email</h3>
             <p className="muted">sofeahani02@gmail.com</p>
           </div>
