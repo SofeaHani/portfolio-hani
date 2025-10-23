@@ -119,7 +119,7 @@ function App() {
           <span
             key={chip}
             style={{
-              background: '#111827',
+              background: '#d80c57',
               color: '#e6eef8',
               borderRadius: '999px',
               padding: '6px 12px',
