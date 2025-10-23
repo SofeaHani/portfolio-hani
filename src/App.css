@@ -523,11 +523,11 @@ header {
 /* CTA block */
 .contact-cta {
   max-width: 1100px;
-  margin: 36px auto 0;
+  margin: 18px auto 0;
   background: rgb(255, 254, 254);
   border: 2px solid #d80c57;
   border-radius: 12px;      /* slightly smaller radius */
-  padding: 10px 16px; 
+  padding: 20px 20px; 
   text-align: center;
   box-shadow: 0 12px 40px rgba(2,6,23,0.5);
 }
