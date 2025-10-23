@@ -83,25 +83,18 @@ function App() {
 >
   {[
     {
-      icon: '⟨⟩',
       title: 'Software Development',
       chips: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'PhpMyAdmin', 'Git & GitHub', 'React']
     },
     {
-      icon: '🗄️',
-      title: 'Data Management & Databases',
-      chips: ['SQL', 'MySQL', 'PostgreSQL', 'MongoDB']
+      title: 'Machine Learning & Data Science',
+      chips: [ 'Python', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib','Scikit-learn', 'TensorFlow', 'Keras', 'CNN']
     },
     {
-      icon: '📈',
-      title: 'Analytics & BI Tools',
+      title: 'Analytics & Data Visualization',
       chips: ['Tableau', 'Microsoft Excel', 'Looker Studio', 'Google Analytics']
     },
-    {
-      icon: '☁️',
-      title: 'Cloud & Dev Tools',
-      chips: ['AWS', 'Azure', 'GCP', 'Git & GitHub']
-    }
+    
   ].map((cat, i) => (
     <div
       key={i}
