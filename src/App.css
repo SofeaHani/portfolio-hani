@@ -524,8 +524,7 @@ header {
 .contact-cta {
   max-width: 1100px;
   margin: 36px auto 0;
-  background: rgb(255, 255, 255);
-  border: 2px solid #d80c57;
+  background: #d7085bff;
   border-radius: 14px;
   padding: 28px;
   text-align: center;
