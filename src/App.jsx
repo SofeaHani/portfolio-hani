@@ -101,14 +101,14 @@ function App() {
       style={{
         background: '#fcfcfcff',
         borderRadius: '12px',
-        padding: '28px',
-        color: '#151111ff',
-        boxShadow: '0 8px 30px rgba(2,6,23,0.35)',
-        minHeight: '150px',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between'
-      }}
+        padding: '12px 28px',       // reduced top/bottom padding (was 28px)
+         color: '#151111ff',
+         boxShadow: '0 8px 30px rgba(2,6,23,0.35)',
+         minHeight: '150px',
+         display: 'flex',
+         flexDirection: 'column',
+         justifyContent: 'space-between'
+       }}
     >
       <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
         <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 700 }}>{cat.title}</h3>
@@ -141,7 +141,7 @@ function App() {
               className="grid"
               style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(4, 1fr)',
+                gridTemplateColumns: 'repeat(3, 1fr)',
                 gap: '24px'
               }}
             >
