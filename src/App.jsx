@@ -151,14 +151,14 @@ function App() {
           marginTop: '32px'         // <-- add gap between technical cards and soft skills
         }}
       >
-         <div style={{ width: '100%', maxWidth: '600px' }}>
-           <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
+         <div className="soft-skills-wrapper" style={{ width: '100%', maxWidth: '600px' }}>
+           <h2 style={{ marginBottom: '24px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
            <div
-             className="grid"
+             className="grid soft-grid"
              style={{
                display: 'grid',
                gridTemplateColumns: 'repeat(3, 1fr)',
-               gap: '24px'
+               gap: '18px'
              }}
            >
             {[
