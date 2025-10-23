@@ -83,14 +83,17 @@ function App() {
     >
       {[
         {
+          icon: 'software.png',
           title: 'Software Development',
           chips: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'PhpMyAdmin', 'Git & GitHub', 'React']
         },
         {
+          icon: 'machine.png',
           title: 'Machine Learning & Data Science',
           chips: ['Python', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'CNN']
         },
         {
+          icon: 'data.png',
           title: 'Analytics & Data Visualization',
           chips: ['Tableau','MySQL','Microsoft Excel', 'Looker Studio', 'Microsoft Clarity','MoEngage']
         }
@@ -110,6 +113,9 @@ function App() {
             textAlign: 'center'
           }}
         >
+          {/* icon above title */}
+          <img src={cat.icon} alt={`${cat.title} icon`} style={{ width: 54, height: 54, objectFit: 'contain', marginBottom: 12 }} />
+
           <h3 style={{ margin: 0, color: '#d80c57', fontSize: '1.18rem', fontWeight: 700, fontStyle: 'italic', lineHeight: 1.05 }}>
             {cat.title}
           </h3>
