@@ -538,7 +538,7 @@ header {
 }
 
 .contact-cta .cta-sub {
-  color: #d7085bff;
+  color: rgba(255,255,255,0.85);
   margin: 0 0 16px;
 }
 
