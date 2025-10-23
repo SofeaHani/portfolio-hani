@@ -447,8 +447,8 @@ header {
 
 /* Contact section design (dark gradient, cards, CTA) */
 .contact {
-  background: linear-gradient(180deg, rgb(167, 255, 120) 0%, rgb(191, 255, 131) 100%);
-  color: #fff;
+  background: linear-gradient(180deg, rgb(216, 255, 180) 0%, rgb(216, 255, 180) 100%);
+  color: #d7085bff;
   padding: 72px 20px;
 }
 
