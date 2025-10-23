@@ -140,19 +140,20 @@ function App() {
           gridColumn: '1 / -1',      // span full grid width
           display: 'flex',
           justifyContent: 'center', // center inner container
-          width: '100%'
+          width: '100%',
+          marginTop: '32px'         // <-- add gap between technical cards and soft skills
         }}
       >
-        <div style={{ width: '100%', maxWidth: '600px' }}>
-          <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
-          <div
-            className="grid"
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(3, 1fr)',
-              gap: '24px'
-            }}
-          >
+         <div style={{ width: '100%', maxWidth: '600px' }}>
+           <h2 style={{ marginBottom: '32px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
+           <div
+             className="grid"
+             style={{
+               display: 'grid',
+               gridTemplateColumns: 'repeat(3, 1fr)',
+               gap: '24px'
+             }}
+           >
             {[
               { img: 'teamwork.png',title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
               { img: 'communication.png',title: 'Communication', desc: 'Strong written and verbal communication skills.' },
