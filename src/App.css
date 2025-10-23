@@ -716,8 +716,9 @@ header {
   .soft-grid .grid-card {
     width: 100%;
     display: flex;
-    align-items: flex-start;
-    gap: 12px;
+    flex-direction: column;      /* image above text */
+    align-items: center;         /* center image and text */
+    gap: 10px;
     padding: 12px;
     text-align: center !important;
     background: #ffffff;
@@ -729,12 +730,15 @@ header {
   .soft-grid .grid-card img {
     width: 56px !important;
     height: 56px !important;
-    margin-bottom: 0 !important;
+    margin: 0;                   /* centered by flex + text-align */
     flex-shrink: 0;
     border-radius: 8px;
+    display: block;
   }
 
-  .soft-grid .grid-card span {
+  .soft-grid .grid-card__text { margin-top: 0; }
+
+  .soft-grid .grid-card .grid-card__title {
     display: block;
     font-weight: 700;
     color: #d80c57;
@@ -742,8 +746,8 @@ header {
     font-size: 1rem;
   }
 
-  .soft-grid .grid-card p {
-    margin: 4px 0 0;
+  .soft-grid .grid-card .grid-card__desc {
+    margin: 6px 0 0;
     color: #333;
     font-size: 0.95rem;
     line-height: 1.4;
