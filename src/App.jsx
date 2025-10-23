@@ -110,7 +110,7 @@ function App() {
             justifyContent: 'flex-start' // stack content from top
           }}
         >
-          <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+          <div style={{ display: 'flex', gap: '28px', alignItems: 'center' }}>
             <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 700, lineHeight: 1.15 }}>{cat.title}</h3>
           </div>
 
