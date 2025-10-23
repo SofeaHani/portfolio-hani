@@ -74,7 +74,7 @@ function App() {
     <div
       style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
         gap: '28px',
         width: '100%',
         maxWidth: '1200px',
@@ -88,42 +88,43 @@ function App() {
         },
         {
           title: 'Machine Learning & Data Science',
-          chips: [ 'Python', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib','Scikit-learn', 'TensorFlow', 'Keras', 'CNN']
+          chips: ['Python', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'TensorFlow', 'Keras', 'CNN']
         },
         {
           title: 'Analytics & Data Visualization',
           chips: ['Tableau', 'Microsoft Excel', 'Looker Studio', 'Google Analytics']
-        },
-        
+        }
       ].map((cat, i) => (
         <div
           key={i}
           style={{
-            background: '#fcfcfcff',
-            borderRadius: '12px',
-            padding: '16px 28px',      // reduce top/bottom padding
-            color: '#151111ff',
-            boxShadow: '0 8px 30px rgba(2,6,23,0.35)',
-            minHeight: 'auto',         // allow card to size to content
+            background: '#ffffff',
+            border: '2px solid #d80c57',
+            borderRadius: '14px',
+            padding: '18px 22px',
+            color: '#151111',
+            boxShadow: '0 12px 30px rgba(2,6,23,0.06)',
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: 'flex-start' // stack content from top
+            alignItems: 'center',
+            textAlign: 'center'
           }}
         >
-          <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-            <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: 700, lineHeight: 1.15 }}>{cat.title}</h3>
-          </div>
+          <h3 style={{ margin: 0, color: '#d80c57', fontSize: '1.18rem', fontWeight: 700, fontStyle: 'italic', lineHeight: 1.05 }}>
+            {cat.title}
+          </h3>
 
-          <div style={{ marginTop: '20px', display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+          <div style={{ marginTop: '12px', display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center' }}>
             {cat.chips.map(chip => (
               <span
                 key={chip}
                 style={{
                   background: '#d80c57',
-                  color: '#e6eef8',
+                  color: '#fff',
                   borderRadius: '999px',
-                  padding: '6px 12px',
-                  fontSize: '0.85rem',
+                  padding: '7px 14px',
+                  fontSize: '0.9rem',
+                  fontWeight: 700,
                   boxShadow: 'inset 0 -1px 0 rgba(255,255,255,0.03)'
                 }}
               >
