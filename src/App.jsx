@@ -277,9 +277,6 @@ function App() {
       <section className="contact" id="contact">
         <div className="contact-hero">
           <h2>Let's Connect</h2>
-          <p className="contact-sub">
-            I'm always interested in discussing new opportunities about technology.
-          </p>
         </div>
 
         <div className="contact-cards">
