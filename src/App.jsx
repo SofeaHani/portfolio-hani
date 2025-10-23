@@ -81,7 +81,8 @@ function App() {
     margin: '0 auto 32px auto'
   }}
 >
-  {{
+  {[
+    {
       icon: '⟨⟩',
       title: 'Software Development',
       chips: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'PHP', 'PhpMyAdmin', 'Git & GitHub', 'React']
@@ -101,7 +102,7 @@ function App() {
       title: 'Cloud & Dev Tools',
       chips: ['AWS', 'Azure', 'GCP', 'Git & GitHub']
     }
-  }.map((cat, i) => (
+  ].map((cat, i) => (
     <div
       key={i}
       style={{
@@ -148,7 +149,7 @@ function App() {
         ))}
       </div>
     </div>
-  ))}
+  ))} 
 </div>
           {/* Soft Skills - Bottom */}
           <div style={{ width: '100%', maxWidth: '600px' }}>
