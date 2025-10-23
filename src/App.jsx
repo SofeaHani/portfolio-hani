@@ -92,7 +92,7 @@ function App() {
         },
         {
           title: 'Analytics & Data Visualization',
-          chips: ['Tableau', 'Microsoft Excel', 'Looker Studio', 'Google Analytics']
+          chips: ['Tableau','MySQL','Microsoft Excel', 'Looker Studio', 'Google Analytics']
         }
       ].map((cat, i) => (
         <div
@@ -114,7 +114,7 @@ function App() {
             {cat.title}
           </h3>
 
-          <div style={{ marginTop: '12px', display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center' }}>
+          <div style={{ marginTop: '19px', display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center' }}>
             {cat.chips.map(chip => (
               <span
                 key={chip}
