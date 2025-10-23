@@ -151,28 +151,30 @@ function App() {
           marginTop: '32px'         // <-- add gap between technical cards and soft skills
         }}
       >
-         <div className="soft-skills-wrapper" style={{ width: '100%', maxWidth: '600px' }}>
-           <h2 style={{ marginBottom: '24px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
-           <div
-             className="grid soft-grid"
-             style={{
-               display: 'grid',
-               gridTemplateColumns: 'repeat(3, 1fr)',
-               gap: '24px'
-             }}
-           >
+        <div className="soft-skills-wrapper" style={{ width: '100%', maxWidth: '600px' }}>
+          <h2 style={{ marginBottom: '24px', color: '#d80c57', textAlign: 'center' }}>Soft Skills</h2>
+          <div
+            className="grid soft-grid"
+            style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(3, 1fr)',
+              gap: '24px'
+            }}
+          >
             {[
-              { img: 'teamwork.png',title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
-              { img: 'communication.png',title: 'Communication', desc: 'Strong written and verbal communication skills.' },
-              { img: 'problemsolving.png',title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
-              { img: 'adaptation.png',title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
-              { img: 'time.png',title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' },
-              { img: 'emotional.png',title: 'Emotional Intelligence', desc: 'Ability to understand and manage emotions effectively.' },
+              { img: 'teamwork.png', title: 'Teamwork', desc: 'Able to work effectively in a team environment.' },
+              { img: 'communication.png', title: 'Communication', desc: 'Strong written and verbal communication skills.' },
+              { img: 'problemsolving.png', title: 'Problem Solving', desc: 'Adapt at analyzing and solving complex problems.' },
+              { img: 'adaptation.png', title: 'Adaptability', desc: 'Quick to adapt to new technologies and environments.' },
+              { img: 'time.png', title: 'Time Management', desc: 'Efficient in managing time and meeting deadlines.' },
+              { img: 'emotional.png', title: 'Emotional Intelligence', desc: 'Ability to understand and manage emotions effectively.' },
             ].map((skill, index) => (
               <div className="grid-card" key={index} style={{ textAlign: 'center' }}>
-                <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} /><br />
-                <span>{skill.title}</span>
-                <p>{skill.desc}</p>
+                <img src={skill.img} alt={skill.title} style={{ width: '55px', height: '55px', marginBottom: '10px' }} />
+                <div className="grid-card__text" style={{ marginTop: 6 }}>
+                  <span className="grid-card__title" style={{ display: 'block', fontWeight: 700 }}>{skill.title}</span>
+                  <p className="grid-card__desc" style={{ margin: '6px 0 0' }}>{skill.desc}</p>
+                </div>
               </div>
             ))}
           </div>
